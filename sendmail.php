@@ -1,26 +1,22 @@
 <?php
-// Check for empty fields
-if(empty($_POST['name'])  		||
-   empty($_POST['email']) 		||
-   empty($_POST['phone']) 		||
-   empty($_POST['message'])	||
-   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
-   {
-	echo "No arguments Provided!";
-	return false;
-   }
-	
-$name = $_POST['name'];
-$email_address = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
-	
-// Create the email and send the message
-$to = 'yourname@yourdomain.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-$email_subject = "Website Contact Form:  $name";
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-$headers .= "Reply-To: $email_address";	
-mail($to,$email_subject,$email_body,$headers);
-return true;			
+    //we need to get our variables first
+    
+    $email_to =   'morshed08@gmail.com'; //the address to which the email will be sent
+    $name     =   $_POST['name'];  
+    $email    =   $_POST['email'];
+    $subject  =   $_POST['subject'];
+    $message  =   $_POST['message'];
+    
+    /*the $header variable is for the additional headers in the mail function,
+     we are asigning 2 values, first one is FROM and the second one is REPLY-TO.
+     That way when we want to reply the email gmail(or yahoo or hotmail...) will know 
+     who are we replying to. */
+    $headers  = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    
+    if(mail($email_to, $subject, $message, $headers)){
+        echo 'sent'; // we are sending this text to the ajax request telling it that the mail is sent..      
+    }else{
+        echo 'failed';// ... or this one to tell it that it wasn't sent    
+    }
 ?>
