@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link rel="icon" type="image/png" href="images/favicon.png">
-        <title>Online Mapping</title>
+        <title>Turf</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="author" content="">
@@ -52,6 +52,16 @@
         <script src="js/jquery.fancybox.js"></script>
         <!-- template main js -->
         <script src="js/main.js"></script>
+		<!-- MAP STUFF -->
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v1.3.0/turf.min.js'></script>
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.2/turf.min.js'></script>
+<style>
+  body { margin:0; padding:0; }
+  #map { height: 200px; }
+</style>	
     </head>
     <body>
         <!--
@@ -109,7 +119,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block">
-                            <h2>Online Mapping</h2>
+                            <h2>Turf</h2>
                 
                         </div>
                     </div>
@@ -123,12 +133,15 @@
                         <div class="col-md-12">
                             <div class="portfolio-single-img">
                             <div class="post-img">
-                                <img class="img-responsive" alt="" src="images\onlinemapping\onlinemapping.jpg">
+                                <img class="img-responsive" alt="" src="images\turf.jpg">
                             </div>
                             <div class="portfolio-content">
                                 <p>
-   The world has moved past paper maps and into the digital age.  
-                                </p><br>
+					<article>
+<h2>What is Turf?</h2>
+<p>
+	<a href="https://turfjs.org">Turf</a> is a <a href="https://en.wikipedia.org/wiki/JavaScript_library">JavaScript library</a> for <a href="http://en.wikipedia.org/wiki/Spatial_analysis">spatial analysis</a>. It includes traditional spatial operations, helper functions for creating <a href="http://geojson.org">GeoJSON</a> data, and data classification and statistics tools. Turf can be added to your website as a client-side plugin, or you can <a href="https://www.npmjs.com/package/turf">run Turf server-side</a> with <a href="http://nodejs.org/">Node.js</a>. You can find the source code on <a href="http://github.com/turfjs/turf">GitHub</a>.</p>
+								</p><br>
 
                             </div>
                          
@@ -145,149 +158,24 @@
                     <div class="section-heading">
                         <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Work</h1>
                         <p class="wow fadeInDown" data-wow-delay=".5s">
-                              Here are some examples of my online geospatial work.
+                              Here are some examples.
                         </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
-                                <div class="img-wrapper">
-                                    <img src="images/onlinemapping/item-1.jpg" class="img-responsive" alt="this is a title" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/onlinemapping/item-1.jpg">Full Screen Photo</a>
-                                            <a target="_blank" href="cartodb.html">Find Out More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="cartodb.html">
-                                    CartoDB
-                                </a>
-                                </h4>
-                                <p>
-                                    Using CartoDB to show datasets
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                                <div class="img-wrapper">
-                                    <img src="images/onlinemapping/item-2.jpg" class="img-responsive" alt="this is a title" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/onlinemapping/item-2.jpg">Full Screen Photo</a>
-                                            <a target="_blank" href="http://wiki.openstreetmap.org/wiki/WikiProject_Piste_Maps">Find Out More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="http://wiki.openstreetmap.org/wiki/WikiProject_Piste_Maps">
-                                    Ski Resorts
-                                </a>
-                                </h4>
-                                <p>
-                                   Visualizing PA Ski Resorts
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/item-3.JPG" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/portfolio/item-3.JPG">Full Screen Photo</a>
-                                            <a target="_blank" href="http://jwitcoski.github.io/OpenStreetMapPopulation/">Find Out More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="http://jwitcoski.github.io/OpenStreetMapPopulation/">
-                                    OpenStreetMapPopulation
-                                </a>
-                                </h4>
-                                <p>
-                                    Predicting Population by buildings in OpenStreetMap
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                                <div class="img-wrapper">
-                                    <img src="images/onlinemapping/item-4.jpg" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/onlinemapping/item-4.jpg">Full Screen Photo</a>
-                                            <a target="_blank" href="mapbox.html">Find Out More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="mapbox.html">
-                                    Mapbox
-                                </a>
-                                </h4>
-                                <p>
-                                    Making maps using Mapbox
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
-                                <div class="img-wrapper">
-                                    <img src="images/onlinemapping/item-5.jpg" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/onlinemapping/item-5.jpg">Full Screen Photo</a>
-                                            <a target="_blank" href="https://www.openstreetmap.org/#map=16/43.9392/17.5809">Find Out More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="https://www.openstreetmap.org/#map=16/43.9392/17.5809">
-                                    Google Maps
-                                </a>
-                                </h4>
-                                <p>
-                                    Making Maps using Google Maps
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-                                <div class="img-wrapper">
-                                    <img src="images/onlinemapping/item-6.jpg" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a rel="gallery" class="fancybox" href="images/onlinemapping/item-6.jpg">Full Screen Photo</a>
-                                            <a target="_blank" href="mapbox.html>Find Out More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a href="mapbox.html">
-                                    ESRI Online
-                                </a>
-                                </h4>
-                                <p>
-                                    Making Maps using ESRI Online
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
+             
+				<div>
+					<p>
+										This map calculates which hospital is closest to each library on the fly.<a href="https://www.mapbox.com/help/analysis-with-turf/">Instructions</a> 
+					</p>
+					
+<iframe width="100%" height="320" frameborder="0" src="mapbox/turfexample2.html"allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+					
+							</div>
+ 
+				<div>
+					<p>
+										Click on the line, it will tell you the length of a line using Turf.JS <a href="https://www.mapbox.com/help/intro-to-turf/#turf-inside">Instructions</a> 
+					</p>
+<iframe width="100%" height="320" frameborder="0" src="mapbox/turfexample1.html"allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+					</div>
                 </div>
             </section> <!-- #works -->
             <!--

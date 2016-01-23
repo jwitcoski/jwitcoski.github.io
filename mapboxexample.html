@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title></title>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+  <style>
+    body { margin:0; padding:0; }
+    .map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
+<body>
+<div id='map-one' class='map'> </div>
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGluZ3RoaW5ncyIsImEiOiJkSy1MRlNVIn0.jt2ol5HlgFaCdx4Ajn5WjA';
+var mapOne = L.mapbox.map('map-one', 'mapbox.light')
+  .setView([37.8, -96], 4);
+var myLayer = L.mapbox.featureLayer().addTo(mapOne);
+
+var geojson = [
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-77.031952,38.913184]
+    },
+    "properties": {
+      "icon": {
+          "iconUrl": "http://static.comicvine.com/uploads/original/11120/111207460/4363670-hipster.jpg",
+          "iconSize": [50, 50], // size of the icon
+          "iconAnchor": [25, 25], // point of the icon which will correspond to marker's location
+          "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+          "className": "dot"
+      }
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.413682,37.775408]
+    },
+    "properties": {
+      "icon": {
+          "iconUrl": "http://easyloungin.com/forum/topic.php?bb_attachments=211611&bbat=14724&inline",
+          "iconSize": [50, 50], // size of the icon
+          "iconAnchor": [25, 25], // point of the icon which will correspond to marker's location
+          "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+          "className": "dot"
+      }
+    }
+  }
+];
+myLayer.on('layeradd', function(e) {
+  var marker = e.layer,
+      feature = marker.feature;
+  marker.setIcon(L.icon(feature.properties.icon));
+});
+myLayer.setGeoJSON(geojson);
+mapOne.scrollWheelZoom.disable();
+</script>
+</body>
+</html>
+

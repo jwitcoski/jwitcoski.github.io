@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset=utf-8 />
+        <title>A simple map</title>
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+        <style>
+            body {
+                margin:0;
+                padding:0;
+            }
+            #map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                width:100%;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id='map'></div>
+        <script>
+            L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGluZ3RoaW5ncyIsImEiOiJkSy1MRlNVIn0.jt2ol5HlgFaCdx4Ajn5WjA';
+            var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+                .setView([40, -74.50], 9);
+    
+  
+            
+
+var  openlayer=L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
+
+openlayer.addTo(map);
+
+L.geoJson({
+  type: 'FeatureCollection',
+  features: [{
+      type: 'Feature',
+      properties: {},
+      geometry: {
+          type: 'LineString',
+          coordinates: [[-74.5037841796875, 40.03182061333687], [-74.410400390625, 40.30885442563764]]
+      }
+  }, {
+      type: 'Feature',
+      properties: {},
+      geometry: {
+          type: 'Point',
+          coordinates: [-74.5037841796875, 40.03182061333687]
+      }
+  }]
+}).addTo(map);
+
+           
+        </script>
+    </body>
+
+</html>

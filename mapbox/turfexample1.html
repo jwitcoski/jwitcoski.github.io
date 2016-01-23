@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Turf LineString</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
+  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.2/turf.min.js'></script>
+  <style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
+<body>
+  <div id='map'></div>
+
+  <script>
+  L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGluZ3RoaW5ncyIsImEiOiJkSy1MRlNVIn0.jt2ol5HlgFaCdx4Ajn5WjA';
+  var map = L.mapbox.map('map', 'mapbox.streets').setView([38.878605, -77.031669], 13);
+
+  map.dragging.disable();
+  map.touchZoom.disable();
+  map.doubleClickZoom.disable();
+  map.scrollWheelZoom.disable();
+
+  var line = {
+    "type": "Feature",
+    "properties": {},
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-77.031669, 38.878605],
+        [-77.029609, 38.881946],
+        [-77.020339, 38.884084],
+        [-77.025661, 38.885821],
+        [-77.021884, 38.889563],
+        [-77.019824, 38.892368]
+      ]
+    }
+  };
+  var lineLayer = L.mapbox.featureLayer().setGeoJSON(line).addTo(map);
+  var length = turf.lineDistance(dc, 'miles');
+  window.alert("sometext")
+  map.fitBounds(lineLayer.getBounds());
+  </script>
+
+
+</body>
+</html>
