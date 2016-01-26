@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Brightness/contrast example</title>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.5.0/ol.css" type="text/css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.5.0/ol.js"></script>
+
+<style>
+#reset-brightness {
+  min-width: 138px;
+}
+#reset-contrast {
+  min-width: 120px;
+}
+.map {
+        height: 200px;
+        width: 100%;
+      }
+    </st
+
+</style>
+</head>
+<body>
+<div class="container-fluid">
+
+<div class="row-fluid">
+  <div class="span12">
+    <div id="map" class="map"></div>
+    <div id="no-webgl" class="alert alert-error" style="display: none">
+      This example requires a browser that supports <a href="http://get.webgl.org/">WebGL</a>.
+    </div>
+    <div class="btn-group">
+      <button id="increase-brightness"><class = btn btn-primary>+</i></button>
+      <button id="reset-brightness">Brightness</button>
+      <button id="decrease-brightness"><class = btn btn-primary>-</i></button>
+    </div>
+    <div class="btn-group">
+      <button id="increase-contrast"><class = btn btn-primary>+</i></button>
+      <button id="reset-contrast">Contrast</button>
+      <button id="decrease-contrast"><class = btn btn-primary>-</i></button>
+    </div>
+  </div>
+</div>
+
+</div>
+<script>
+function setResetBrightnessButtonHTML() {
+  resetBrightness.innerHTML = 'Brightness (' +
+      layer.getBrightness().toFixed(3) + ')';
+}
+
+function setResetContrastButtonHTML() {
+  resetContrast.innerHTML = 'Contrast (' + layer.getContrast().toFixed(3) + ')';
+}
+
+if (!ol.has.WEBGL) {
+  var info = document.getElementById('no-webgl');
+  /**
+   * display error message
+   */
+  info.style.display = '';
+} else {
+  var layer = new ol.layer.Tile({
+    source: new ol.source.MapQuest({layer: 'sat'})
+  });
+
+  var map = new ol.Map({
+    layers: [layer],
+    renderer: 'webgl',
+    target: 'map',
+    view: new ol.View({
+      center: [0, 0],
+      zoom: 2
+    })
+  });
+
+  var increaseBrightness = document.getElementById('increase-brightness');
+  var resetBrightness = document.getElementById('reset-brightness');
+  var decreaseBrightness = document.getElementById('decrease-brightness');
+
+  setResetBrightnessButtonHTML();
+
+  increaseBrightness.addEventListener('click', function() {
+    layer.setBrightness(Math.min(layer.getBrightness() + 0.125, 1));
+    setResetBrightnessButtonHTML();
+  }, false);
+  resetBrightness.addEventListener('click', function() {
+    layer.setBrightness(0);
+    setResetBrightnessButtonHTML();
+  }, false);
+  decreaseBrightness.addEventListener('click', function() {
+    layer.setBrightness(Math.max(layer.getBrightness() - 0.125, -1));
+    setResetBrightnessButtonHTML();
+  }, false);
+
+  var increaseContrast = document.getElementById('increase-contrast');
+  var resetContrast = document.getElementById('reset-contrast');
+  var decreaseContrast = document.getElementById('decrease-contrast');
+
+  setResetContrastButtonHTML();
+
+  increaseContrast.addEventListener('click', function() {
+    layer.setContrast(layer.getContrast() + 0.125);
+    setResetContrastButtonHTML();
+  }, false);
+  resetContrast.addEventListener('click', function() {
+    layer.setContrast(1);
+    setResetContrastButtonHTML();
+  }, false);
+  decreaseContrast.addEventListener('click', function() {
+    layer.setContrast(Math.max(layer.getContrast() - 0.125, 0));
+    setResetContrastButtonHTML();
+  }, false);
+}
+
+</script>
+</body>
+</html>
