@@ -10,7 +10,8 @@
 </head>
 <body>
 	<div id="map" style="width: 100%; height: 500px"></div>
-
+   <!-- Bring in the leaflet KML plugin -->
+   <script src="leaflet-plugins/layer/vector/KML.js"></script> 
 	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 	<script>
 		var cities = new L.LayerGroup();
@@ -25,15 +26,17 @@
 			attribution: 'Map data &copy; <a href="http://openweathermap.org">OpenWeatherMap</a>',
 			opacity: 0.5
 		});
-		var NASAGIBS_ModisTerraSnowCover = L.tileLayer('http://map1.vis.earthdata.nasa.gov/wmts-webmerc/MODIS_Terra_Snow_Cover/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
+var NASAGIBS_ModisTerraSnowCover = L.tileLayer('http://map1.vis.earthdata.nasa.gov/wmts-webmerc/MODIS_Terra_Snow_Cover/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
 	attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
+	bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
 	minZoom: 1,
 	maxZoom: 8,
 	format: 'png',
 	time: '',
 	tilematrixset: 'GoogleMapsCompatible_Level',
 	opacity: 0.75
-});
+})
+;
 		
 	    var mbAttr = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
 				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +

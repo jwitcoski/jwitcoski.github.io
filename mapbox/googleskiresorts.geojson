@@ -1,0 +1,3048 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.913025,
+                    50.878881,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sun Peaks Resort",
+                "description": "Sun Peaks Resort (http://www.ownerdirect.com/accommodation/sun-peaks) was once a local ski attraction, but the secret is out and has grown to become an award-winning resort in Kamloops (http://www.ownerdirect.com/accommodation/kamloops), in the heart of British Columbia’s Interior.  It is easy to choose from a selection of  vacation rentals here as it is one of those ski villages that makes for the perfect family vacation. From year-round kid camps, a drop-in Sports Center with an outdoor, heated swimming pool and tennis courts, to mountain biking trails and world-class skiing and snowboarding, family members, friends and groups will have a blast at Sun Peaks Resort."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.06089799999998,
+                    50.3551,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Silver Star Mountain Resort",
+                "description": "In the winter you will get to enjoy a world class ski mountain where downhill skiing, snowboarding and cross country skiing will be the highlights of your day. But that’s not all the area offers. You will find a variety of activities for the kids including ice skating and snow tubing. Every activity you choose to enjoy is within walking (or skiing!) distance from your Silver Star chalet rental (http://www.ownerdirect.com/accommodation/silver-star)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.93901800000002,
+                    49.717598,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Big White Ski Resort",
+                "description": "Big White Ski Resort is located 45 miles from Kelowna (http://www.ownerdirect.com/accommodation/kelowna) in the Central Interior of B.C, and is British Columbia’s second largest winter resort. Since 1994, Owner Direct Vacation Rentals has offered accommodations in hundreds of chalet rental, cabins, town homes and condo rentals at Big White (http://www.ownerdirect.com/accommodation/big-white)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.95898400000002,
+                    50.113533000000004,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Whistler",
+                "description": "Famous for hosting the 2010 Winter Olympics, Whistler BC (http://www.ownerdirect.com/accommodation/whistler) has long since been a favorite ski and snowboarding destination. Located in the majestic Coast Mountains in British Columbia, Whistler is just two hours north of Vancouver. Whistler is consistently ranked as the number one mountain resort in North America."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.899292,
+                    49.418344,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Apex Mountain Resort",
+                "description": "Apex  (http://www.ownerdirect.com/accommodation/apex)has been recognized by Ski Canada Magazine as the best small destination resort in Canada. What makes Apex is special is that everything is centered around the Village. All the ski runs end up there, allowing families to split up to allow for different ski levels, but all meet at the bottom."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.22299199999999,
+                    50.471491,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Panorama",
+                "description": "Panorama is a four-season paradise where families discover the great outdoors and adventure seekers find new thrills to these their limits. It is a true holiday playground for young and old, alike. Set amidst the scenic mountains, the view is amazing. Close your eyes and imagine that same view from the comforts of home – a beautiful Panorama vacation  (http://www.ownerdirect.com/accommodation/panorama)home rental (http://www.ownerdirect.com/accommodation/panorama). Lodging doesn’t get any better than that.Skiing, heli-skiing, snowboarding, snowmobiling and enjoying the fresh snow will keep you busy all winter long, or at least the length of your vacation!"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.070801,
+                    49.500242,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Fernie",
+                "description": "If you close your eyes and imagine your perfect winter ski vacation you will likely see snow, mountains, a ski resort with a beautiful and intimate village, and plenty of gorgeous natural scenery. In fact, you are very likely to see Fernie, BC. Fernie is situated in the southeast corner of the BC Rocky Mountains and has a reputation for awesome powder skiing and fabulous accommodation (http://www.ownerdirect.com/accommodation/fernie)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.97717300000001,
+                    49.664072,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kimberley",
+                "description": "This resort features true ski-in ski-out alpine and Nordic vacations homes (http://www.ownerdirect.com/accommodation/kimberley), located only five minutes from the Bavarian City of Kimberley. It is the second highest city in Canada with an elevation of 3600 feet."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.819185,
+                    49.102252,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Red Mountain Ski Resort",
+                "description": "Red Mountain Ski Resort is only five minutes away from the town of Rossland (http://www.ownerdirect.com/accommodation/rossland). Visitors come here to experience the great outdoors - world class skiing, mountain biking, golf, lake sports and more."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.05108599999998,
+                    51.298637,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kicking Horse Resort",
+                "description": "Kicking Horse Mountain Resort (http://www.ownerdirect.com/accommodation/golden/kicking-horse) makes for the perfect destination for a Canadian vacation. With Canadian national parks, some incredible heli-skiing and a fantastic ski and snowboard resort, you will come to Kicking Horse, have a great time and not want to leave."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -125.301132,
+                    49.739569,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mt. Washington Ski Resort",
+                "description": "Mt. Washington Ski Resort (http://www.ownerdirect.com/accommodation/mt-washington) is known for its spectacular ocean and alpine views and its abundance of snow perfect for a ski vacation. Renting holiday chalet rentals directly from owners of high quality accommodations on Mt. Washington, BC, Canada will ensure that you have a superior vacation and experience.Courses in avalanche training and back-country skiing are available as well as night-skiing."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.174438,
+                    50.994743,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Revelstoke Mountain Resort",
+                "description": "Winter brings great alpine and cross-country skiing, as well as snowmobiling, cat-skiing, heli-skiing and ice fishing to Revelstoke.Powder, powder and more powder! Find vacation homes for rent in Revelstoke (http://www.ownerdirect.com/accommodation/revelstoke) from Owner Direct.com"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.482788,
+                    51.172455,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Banff National Park",
+                "description": "Ski Lake Louise, Sunshine, Nakiska, Mt. Norquay or Wintergreen mountains, all within an easy drive from your vacation rental in Banff National Park (http://www.ownerdirect.com/accommodation/banff-national-park-area). The Alberta Rockies are well worth a visit for some fabulous skiing."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.648232,
+                    44.317892,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Talisman Mountain Resort",
+                "description": "Rent a vacation rental home at Beaver Valley (http://www.ownerdirect.com/accommodation/beaver-valley), Ontario.   Just a short drive from the Greater Toronto area and US border crossings and experience Ontario skiing at Talisman Mountain Resort."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.388336,
+                    44.500423,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Blue Mountains",
+                "description": "With slopes for beginners and experts alike, Blue Mountain Resort is just minutes away from mountainside accommodation. A condo rental, rustic cabin, or chalet rental in Collingwood (http://www.ownerdirect.com/accommodation/collingwood) will provide an excellent base for exploring the surrounding mountains. Snowshoeing, skiing and snowboarding, cross-country, snowmobiling, and even moonlight sleigh rides are some of the activities to be enjoyed within close proximity to an Owner Direct vacation rental."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.767654,
+                    45.282134,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Calabogie Peaks",
+                "description": "Calabogie Peaks is an alpine and cross country ski resort located an hour west of Ottawa,  Ontario. Staying in a Calabogie Lake vacation rental (http://www.ownerdirect.com/accommodation/calabogie-lake) means you can take your holiday without giving up the comfort and privacy you enjoy in your own home. Every day you can wake up in your custom picked accommodation to a view of the lake, or the peaks above it."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.62326,
+                    46.19219,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mont Tremblant",
+                "description": "Enjoy world-class skiing and snowboarding at one of the area's three ski resorts: Tremblant Resort, Mont Blanc and Ski de fond Mont-Tremblant. Located 90 minutes north of Montreal, Mont Tremblant mountain features a European style village with amenities and activities for every taste. The Mont Tremblant National Park plays host to millions of visitors every year, find a Mont Tremblant vacation rental (http://www.ownerdirect.com/accommodation/mont-tremblant) from Owner Direct."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.20137,
+                    49.360017,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cypress Mountain",
+                "description": "Cypress Mountain ski resort is minutes from downtown Vancouver (http://www.ownerdirect.com/accommodation/greater-vancouver) and has 47 alpine ski runs (many accessible for night skiing) and 19 km of cross country tracks. Ski schools and rentals, cafeteria and lounge and a retail shop are also located on the premises."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.084574,
+                    52.801412,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Marmot Basin",
+                "description": "In winter, guests can ski or snowboard at Marmot Basin, snowshoe or cross-country ski, take a Maligne Canyon Icewalk, or simply relax by a fire at your Jasper vacation rental (http://www.ownerdirect.com/accommodation/jasper). Year round, Jasper National Park offers first-class accommodations, activities, boutique shops, restaurants, spas, interpretative tours and wildlife viewing."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.095798,
+                    49.372202,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Grouse Mountain",
+                "description": "Grouse Mountain (http://www.ownerdirect.com/accommodation/north-vancouver) is one of the North Shore Mountains in North Vancouver, BC. Exceeding 1200 m (4000 feet) in altitude at its peak, it is the site of an alpine ski area in the winter season overlooking Greater Vancouver (http://www.ownerdirect.com/accommodation/greater-vancouver) with four chairlifts facilitating 26 runs."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.037292,
+                    39.491324,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Breckenridge Ski Resort",
+                "description": "Breckenridge Ski Resort features 30 lifts, 155 ski trails and a stunning 2358 acres of winter playground complete with varying degrees of difficulty and five freestyle terrain parks.  It also features a wide range of Breckenridge accommodations (http://www.ownerdirect.com/accommodation/breckenridge) to meet any traveler’s needs."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.94940200000002,
+                    39.590874,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Keystone",
+                "description": "Keystone offers over 3,148 skiable acres and a range of Keystone accommodations (http://www.ownerdirect.com/accommodation/keystone) to suit every need. Whether you prefer to ski day and night, or relax in a luxury spa, Keystone has it all. Keystone offers online ski and snowboard rentals,  cat-ski access, an excellent ski school, night skiing, 20 lifts, and two gondolas."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.762634,
+                    39.901309,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Winter Park",
+                "description": "The skiing and snowboarding at Winter Park Resort is world class. The resort offers runs of all levels which makes it an excellent ski trip for friends, groups and families.  Perhaps you want to challenge your skiing with an adrenaline rush down the slopes, or you want to spend quality time with your family by sledding down a much gentler slope.  Whatever your winter passion, you will find it in Winter Park.  Whether you come for a long weekend or a two-week long stay, you will find a variety of Winter Park lodging (http://www.ownerdirect.com/accommodation/winter-park) options to choose from."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.83929400000001,
+                    40.507535,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Steamboat Springs",
+                "description": "157 miles northwest of Denver, Colorado, and located within the Park Range of the Colorado Rocky Mountains, Steamboat Springs (http://www.ownerdirect.com/accommodation/steamboat-springs) is comprised of six peaks: Mt Werner, Sunshine Peak, Storm Peak, Thunderhead Peak, Christie Peak and Pioneer Ridge.  2,965 acres/1,200 hectares of terrain offer a diversity of trails for all ability levels."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.524296,
+                    39.60582,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Beaver Creek",
+                "description": "Beaver Creek Mountain is known for its unique diversity, exceptional snow quality and award-winning ski and snowboarding school.  Beaver Creek is more than just a ski mountain, it is a year-round village with excellent amenities.  As the folks who run Beaver Creek like to say, a visit to Beaver Creek is … read more (http://www.ownerdirect.com/accommodation/beaver-creek#)not exactly roughing it.  Beaver Creek accommodation (http://www.ownerdirect.com/accommodation/beaver-creek) options are luxurious and spacious and offer skiers, snowboarders and summer visitors with the best in location and amenities. It is a family-friendly mountain resort and there are daily activities for kids within the village."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.380615,
+                    39.643768,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Vail",
+                "description": "Vail is recognized all over the world as a leading vacation destination with Vail accommodations (http://www.ownerdirect.com/accommodation/vail) to suit every visitor. Beautiful scenery, activities and unrivaled ski resorts combine to create the ultimate Colorado Rocky Mountain getaway."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -107.852783,
+                    37.957192,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Telluride",
+                "description": "A free gondola connects the town with its companion town, Mountain Village, Colorado, at the base of the ski area. Telluride (http://www.ownerdirect.com/accommodation/telluride)'s remoteness is also what makes the resort special. Weekend warrior skiiers from the big cities don't get there by car. This makes Telluride a more out of the way, full-service ski resort with exceedingly short lift lines."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.177282,
+                    39.497948,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Copper Mountain Resort",
+                "description": "126 trails, 22 lifts, 12,313 peak height and 2,433 lifted-service acres and separate areas for beginners, intermediate and expert level skiers and snowboarders.  Rent holiday lodging directly from owners of chalets, condos and home accommodations in Copper Mountain (http://www.ownerdirect.com/accommodation/copper-mountain)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.99585,
+                    38.865375,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Crested Butte",
+                "description": "Crested Butte has more than 1,000 acres and 2,775 vertical feet of  varied terrain. Located in the heart of the Rocky Mountains near Gunnison, rent a vacation rental home in Crested Butte (http://www.ownerdirect.com/accommodation/crested-butte) Ski Resort."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.836548,
+                    39.200334000000005,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Aspen",
+                "description": "A world class ski resort, and four season playground. Year-round leisure activities including hang gliding, hiking, mountain biking and horseback riding. In the winter many types of snow and ice sports can be found. The major ski resorts are Aspen Highlands, Aspen Mountains and Buttermilk. Rent an Aspen vacation rental (http://www.ownerdirect.com/accommodation/aspen) for your next ski trip."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.02014200000002,
+                    39.12793,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Tahoe",
+                "description": "Lake Tahoe boasts of over 300 days of warm sunshine, 396 inches of annual snowfall, 18 world-class ski resorts, incredible golf courses, fantasticLake Tahoe vacation rentals (http://www.ownerdirect.com/lodging/lake-tahoe), casinos and above all the beautiful blue lake."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.89453100000001,
+                    34.361576,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Big Bear",
+                "description": "The town of Big Bear (http://www.ownerdirect.com/accommodation/big-bear) offers Bear Mountain and  Snow Summit Ski Resorts (http://www.ownerdirect.com/accommodation/snow-summit) along with many other winter activities. Big Bear Lake is unique in the fact that although it averages over 300 days of sunshine a year, it has also recorded snowfall in all months except July and August."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.06237,
+                    39.260968,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Northstar",
+                "description": "Two thousand four hundred twenty acres of skiing and snowboarding at Northstar, Lake Tahoe. Rent holiday lodging directly from owners of home, chalet, cabin and condo accommodations in Northstar (http://www.ownerdirect.com/accommodation/northstar)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.091797,
+                    37.614231,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mammoth",
+                "description": "Rent a vacation rental home at Mammoth Ski Resort (http://www.ownerdirect.com/accommodation/mammoth), California, United States.  Located in the Eastern Sierras,  California."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.321777,
+                    41.294317,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mount Shasta Ski Resort",
+                "description": "A full serve winter resort featuring alpine, Nordic skiing and snowboarding. Skiers and snowboarders will be thrilled to know that the mountain experiences an awesome 275 inches of snowfall annually. There are 425 acres of ski-able terrain, 32 trails, 4 chairlifts and a 300 foot long super half-pipe. Mount Shasta vacation rentals (http://www.ownerdirect.com/accommodation/mount-shasta) and accommodations in the area range from condo rentals, apartment rentals, to chalet rentals, cabins and a variety of other vacation rental options to cater to your travel needs."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.584167,
+                    48.351577000000006,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Schweitzer Mountain",
+                "description": "Snow skiing in Sandpoint  (http://www.ownerdirect.com/accommodation/sandpoint)revolves about Schweitzer Mountain Ski Resort atop 6,400-foot Schweitzer Mountain. With several hundred inches of snowfall each winter season, Schweitzer draws snow skiing enthusiasts to its slopes throughout the northwest. OwnerDirect.com will provide you with the perfect chalet rental for your ski vacation. Schwietzer's ten lifts and tows provide 2,400 vertical feet access to 2,900 acres of terrain featuring 92 named runs and 30 kilometers of cross-country ski trails."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.379395,
+                    45.282617,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Big Sky",
+                "description": "The community of Big Sky is nestled high in mountain meadows, surrounded by timberland, the Spanish Peaks Primitive Area and the Gallatin National Forest. Rent a vacation rental home in Big Sky (http://www.ownerdirect.com/accommodation/big-sky), Montana."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.367676,
+                    48.385442,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Big Mountain at Whitefish",
+                "description": "Located in northwest Montana, this four seasons playground offers something for everyone. Rent a vacation rental home in Whitefish (http://www.ownerdirect.com/accommodation/whitefish), Montana."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.851318,
+                    48.835797,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Glacier Park",
+                "description": "Glacier National Park is open year-round and our variety accommodation provides the perfect home away from home for a relaxing winter getaway. Skiing, snowshoeing, and hiking are just a few of the activities that tempt people to the mountains during the snowy winter months. After all that activity, retreat to the comfort of your Glacier Park vacation rental (http://www.ownerdirect.com/accommodation/glacier-park)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.676865,
+                    44.036054,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cannon Mountain",
+                "description": "This popular winter sport area of the White Mountains is a perfect ski or snow boarding destination. Also enjoy ice climbing, rock climbing and hiking. Located in Franconia Notch State Park with Profile lake nearby, Cannon Mountain (http://www.ownerdirect.com/accommodation/cannon-mountain) is a year round vacation area."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.992405,
+                    43.683997,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gore Mountain Ski Resort",
+                "description": "Gore Mountain is an alpine ski resort in the Adirondack Mountains, located in North Creek, New York. The mountain is a popular winter destination, attracting skiers from all over the east. It is the closest large mountain in New York to the Capital District (Albany) metro area. Rent a vacation rental home at Gore Mountain Ski Resort (http://www.ownerdirect.com/accommodation/gore-mountain)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.664572,
+                    45.331468,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mt Hood Meadows Ski Resort",
+                "description": "Mount Hood Meadows is one of the largest ski resorts in Oregon and the largest ski resort near Mount Hood. It is located about 67 miles (108 km) east of Portland, and 35 miles (56 km) from Hood River along Oregon Route 35. It has both alpine and Nordic ski areas and offers night skiing, lessons and equipment rentals. There are no overnight accommodations at Mount Hood Meadows itself, but OwnerDirect.com offers Mount Hood lodging (http://www.ownerdirect.com/accommodation/mount-hood) nearby.."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.526642,
+                    43.976511,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mount Bachelor Ski Area",
+                "description": "Mount Bachelor ski area, only 30 minutes away, is a frequent destination for guests at Sunriver (http://www.ownerdirect.com/accommodation/sunriver)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.356855,
+                    41.052949,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Camelback Ski Area",
+                "description": "Camelback is the largest ski resort in the Poconos and includes 34 trails, all open for night skiing; 15 lifts, including two high-speed detachable quad lifts; two lighted terrain parks and one half-pipe. With 800 vertical feet of mountain to cover and 34 trails, the whole family will be busy here. Whether you are seeking out black diamonds or the bunny hill, Camelback has something for everyone. The half-pipe has recently been improved and the snow tubing park has been expanded to have 20 tubing chutes, 2 surface lifts, single and double tubes. The variety of vacation rental properties available at Camelback (http://www.ownerdirect.com/accommodation/camelback), including walk-to-the-slopes and ski-down, is a major draw to the area."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.505737,
+                    40.650429,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Park City Ski Area",
+                "description": "Park City Ski Area encompasses many different ski resorts such as Deer Valley, Park City, Snowbird, Solitude Mountain Resort, Sun Peak and The Canyons. Check out Park City Ski Lodging (http://www.ownerdirect.com/accommodation/park-city-ski-area) at OwnerDirect.com"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.492047,
+                    40.643569,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Deer Valley Ski Resort",
+                "description": "Deer Valley Resort was selected to host the Slalom, Mogul and Aerial events during the 2002 Winter Olympics. Deer Valley lodging (http://www.ownerdirect.com/accommodation/deer-valley) options are plentiful. Enjoy the legendary powder with perfectly groomed runs over 6 mountains."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.549382,
+                    40.687342,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "The Canyons Ski Resort",
+                "description": "3,625 skiable acres and an average snowfall of 355 inches.  First-time terrain park skiers and riders can feel comfortable in The Canyons’ new (2005) beginners terrain park located off of Saddleback Express. Find The Canyons lodging (http://www.ownerdirect.com/accommodation/the-canyons) options with Owner Direct Vacation Rentals."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.597018,
+                    40.622748,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Solitude Mountain Resort",
+                "description": "Located in the Big Cottonwood Canyon, offering over 122 acres of terrain.  Twenty-eight miles from Salt Lake City, near Brighton, Solitude Mountain Resort (http://www.ownerdirect.com/accommodation/solitude) offers skiers and boarders a run for their money. There are lodging  (http://www.ownerdirect.com/accommodation/solitude)options available too."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.665039,
+                    40.563895,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Snowbird",
+                "description": "Snowbird, Utah is located in the heart of the Wasatch-Cache National Forest in the Little Cottonwood Canyon of Utah. Primarily known for its challenging winter powder skiing and snowboarding, vacation rentals (http://www.ownerdirect.com/accommodation/snowbird-ut) in the Snowbird area (http://www.ownerdirect.com/accommodation/snowbird-ut) are available through the private vacation rental operators.<br>The resort encompasses 2,500 acres has 11 lifts including one aerial tram, multiple chairlifts, and two conveyor lifts. The 125-person tram covers 2,900 vertical feet, from the top of resort at the 11,000-foot Hidden Peak to the lowest point on the mountain at 7,760 feet, in only seven minutes. 85 runs are divided between 27 percent beginner, 38 percent intermediate, and 35 percent expert."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.63783100000002,
+                    40.588993,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Alta",
+                "description": "Renowned for its fantastic powder skiing and awesome terrain. Located 25 miles southeast of Salt Lake City. Rent holiday lodging directly from owners of chalets, cabins and condo accommodations in Alta Ski Resort (http://www.ownerdirect.com/accommodation/alta)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.784773,
+                    41.378419,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Powder Mountain",
+                "description": "Rent a vacation rental home at Powder Mountain Ski Resort (http://www.ownerdirect.com/accommodation/powder-mountain), Utah, United States  Located north of Ogden and Salt Lake City, Powder Mountain is a natural snow mountain with gold medal terrain. The area is great for mountain biking and hiking in the summer months."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.858416,
+                    41.217468000000004,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Snowbasin Sun Valley Resort",
+                "description": "One of the oldest ski areas in the nation, Snowbasin (http://www.ownerdirect.com/accommodation/snowbasin) is known for exhilarating powder snow and majestic mountain scenery.   Snowbasin is only forty miles from Salt Lake City International Airport, and twenty minutes from Ogden. Vacation rentals at Snowbasin (http://www.ownerdirect.com/accommodation/snowbasin) found here."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.778244,
+                    43.675818,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Killington Ski Resort",
+                "description": "Killington Ski Resort features 45 miles and a 1,700-foot vertical drop spread across five mountain areas with 918 skiable acres, all served by the K-1 Gondola. From your condo rental or chalet rental accommodations (http://www.ownerdirect.com/accommodation/killington) you will find all that the area has to offer, from classic cross-country single-track to challenging big-bike downhill and free riding trails."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.87961,
+                    44.146124,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sugarbush Resort",
+                "description": "The resort stretches across six peaks and two mountain areas, a skiers' and snowboarders' paradise. Diverse terrain, epic snow and local atmosphere make the area legendary. The resort's 111 trails offer endless adventure. Serviced by 16 lifts, including 5 high-speed quads, you'll find yourself at the top of the mountain in no time, facing 2,600 feet of vertical drop. Those looking for a backcountry experience can take advantage of guided tours into the Slide Brook Basin, a 2,000-acre wilderness area home to bear, moose, and bobcat.Sugarbush Resort offers a range of lodging options (http://www.ownerdirect.com/accommodation/sugarbush) to suit everyone."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.702026,
+                    44.475441,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Stowe",
+                "description": "At 4,395 feet, Stowe's Mt. Mansfield is the highest peak in Vermont. This spectacular mountain forms the centerpiece of a region that is world famous for skiing. During the winter months, skiers and snowboarders come from around the world to Mt. Mansfield. Stowe Ski Mountain (http://www.ownerdirect.com/accommodation/stowe) is a great family mountain with varied terrain for all skiers and riders, from novice to master. For the kids, there is the Family Center that caters specifically to little tykes."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.909737,
+                    43.048318,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Stratton Mountain Ski Resort",
+                "description": "Stratton Mountain Ski Resort (http://www.ownerdirect.com/accommodation/stratton) is a great destination for winter adventures. The winter brings amazing snow for skiing and snowboarding and the resort is consistently named one of the top skiing and snowboarding destinations in the country. Stratton Mountain offers over 90 trails for unlimited exploration. It was the great snow and these runs that inspired Jake Burton Carpenter to build the first snowboard here some 30 years ago!"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.893,
+                    42.968451,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mount Snow Resort",
+                "description": "Mount Snow is in the towns of Wilmington and West Dover, in southern Vermont. It is located off the famed Route 100, known as the skier’s highway. Situated in southern Vermont it offers skiers and riders a quick trip to one of Vermont's oldest and innovative resorts with mountainside accommodations (http://www.ownerdirect.com/accommodation/mount-snow), vacation rentals, condo rentals and chalet rentals.   Mount Snow is truly The Gateway to Vermont."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.66420200000002,
+                    37.664051,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Badger Pass Ski Area",
+                "description": "Badger Pass Ski Area (http://www.ownerdirect.com/accommodation/badger-pass) is a ski and snowboarding resort in Yosemite National Park. In addition to the downhill ski runs there is extensive trails and opportunities for cross country skiing and snowshoeing. In fact, many of the winter tourists who come to Yosemite National Park come for the cross country skiing and snowshoe trails. There are over 84 miles of trails in the area."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.179687,
+                    49.05227,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mt. Baldy Ski Resort",
+                "description": "Experience one the Okanagan’s best kept secret, Mt. Baldy Ski Resort (http://www.ownerdirect.com/accommodation/mt-baldy). Located 2 hours south of Kelowna, Mt. Baldy boasts one of the highest base elevations and plenty of fresh champagne powder. Enjoy skiing and snowboarding in an uncrowded winter wonderland. The resort offers something for the whole family, from a terrain park for skiers and snowboarders to snow shoeing and tobogganing.  Enjoy your vacation condo or chalet conveniently located close to the resort. Owner Direct Vacation Rentals offers a wide variety of ski vacation rentals to suit your needs."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.03483600000001,
+                    34.228041,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Snow Valley Ski Resort",
+                "description": "Snow Valley Mountain (http://www.ownerdirect.com/accommodation/snow-valley) resort is located 30 minutes from the base of the San Bernardino Mountains.  The resort is very family oriented. With a snow play area for the kids, Snow Valley is a great family ski vacation destination. With 11 feet of seasonal snowfall, the fresh snow is an attractive feature of this ski resort."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.06845100000001,
+                    37.800561,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "June Mountain Resort",
+                "description": "June Mountain Resort (http://www.ownerdirect.com/accommodation/june-mountain) is located on the Eastern Sierra ridge, 20 miles from it's sister mountain, Mammoth. Convenient shuttle service operates between the 2 mountains."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.180374,
+                    37.222674,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "China Peak Mountain Resort",
+                "description": "China Peak Mountain Resort is located on Highway 168, a scenic 65 miles northeast of Fresno, CA. Easily accessible from Fresno, teh"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.01064300000002,
+                    38.187088,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Dodge Ridge",
+                "description": "Dodge Ridge (http://www.ownerdirect.com/accommodation/dodge-ridge) Ski Resort is an easy drive and convenient to get to from the Bay Sacramento Areas. The resort has terrain and trails for every ski and snow boarder level and has over 800 acres of skiable terrain."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.69104,
+                    34.343436,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mount High",
+                "description": "Mount High (http://www.ownerdirect.com/accommodation/mountain-high) is the easiest and closest winter ski resort with no mountain driving. Travel time from LA is 90 minutes and 75 minutes from Orange County. This resort features 3 different resorts one mile apart. While all interesting, they are completely different specializing in technical trails vs. exciting moguls and glades vs more family oriented. Mount High guarantees to offer a challenge for every skier and snowboarder."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.661514,
+                    34.214073,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mt. Baldy",
+                "description": "Mt. Baldy (http://www.ownerdirect.com/accommodation/mount-baldy) located in Southern California is actually 3 mountains covering over 800 acres of terrain. Not only does it boast  the steepest vertical in Southern California but it offers a wide variety of open glades, tree runs, moguls and groomed runs to entertain every level of skier and snowboarder."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.03604900000002,
+                    38.462891,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bear Valley"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.209656,
+                    39.183304,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Alpine Meadows ",
+                "description": "Alpine Meadows (http://www.ownerdirect.com/accommodation/alpine-meadows) Ski Resort is located approximately 200 miles from San Francisco, 120 miles from Sacramento and 45 miles from Reno. Alpine Meadows is sure to be rated one of your top ski resorts on the Lake Tahoe region."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.08214,
+                    38.801363,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sierra at Tahoe Ski Resort",
+                "description": "Sierra at Tahoe Ski Resort (http://www.ownerdirect.com/accommodation/sierra-at-tahoe) is approximately 3 hrs from San Francisco, 1.5 hrs from Sacramento and 20 min from South Lake Tahoe. With over 2,000 skiable acres, 5 terrain parks and 2,212 vertical you will be sure to find some challenge and excitement skiing or boarding at Sierra."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.33007600000002,
+                    39.318612,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Donner Ski Resort",
+                "description": "Donner Ski Resort (http://www.ownerdirect.com/accommodation/donner) is located approximately 85 miles from Sacramento and 20 miles from Reno. One of the few remaining family owned resorts, Donner offers"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.900723,
+                    38.933322,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Heavenly",
+                "description": "Heavenly (http://www.ownerdirect.com/accommodation/lake-tahoe-nevada/heavenly) Ski Resort is located on the Nevada/California state line on Highway 50. It is approximately 1 1/4 hours from Reno, 2 hours from Sacramento and 3 1/2 hours from San Francisco. Heavenly earns it's name overlooking Lake Tahoe and is considered one of the most unique ski destinations."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.15197799999999,
+                    39.087436,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Homewood",
+                "description": "Homewood (http://www.ownerdirect.com/accommodation/homewood) Ski Resort is located just south of Tahoe City off of Highway 89. The resort offers over 1260 acres of skiable terrain and breathtaking views."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.33211500000002,
+                    39.298954,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sugar Mountain",
+                "description": "Sugar Bowl Mountain Resort (http://www.ownerdirect.com/accommodation/sugar-bowl) is situated near Donner Summit and has plenty of sunshine, snow and terrain to challenge every skier and rider. Sugar Bowl is only 3 hours from San Francisco and 45 minutes from Reno."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.38415000000002,
+                    39.320421,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Soda Springs ",
+                "description": "Soda Springs Ski Resort (http://www.ownerdirect.com/accommodation/soda-springs) is only 80 miles from Sacramento, 48 miles from Reno and 170 miles from San Francisco. Located off of I80, the resort offers a variety of trails to challenge all ski and snow boarder levels."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.073071,
+                    38.70783,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kirkwood ",
+                "description": "Kirkwood Ski Resort (http://www.ownerdirect.com/accommodation/kirkwood) is easily accessible from Lake Tahoe, Reno, the Bary Area and Sacramento. The closest and most convenient airport to fly into is Reno-Tahoe (RNO)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.34907000000001,
+                    39.336311,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Boreal Mountain Resort",
+                "description": "Boreal Mountain Resort (http://www.ownerdirect.com/accommodation/boreal) is easy and convenient to access from Reno and Northern California. With over 380 acres of terrain, a 500 vertical and over 400 inches of annual snowfall there is something for everyone to enjoy at Boreal."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.255761,
+                    39.361929,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tahoe Donner Downhill",
+                "description": "Tahoe Donner Downhill (http://www.ownerdirect.com/accommodation/tahoe-donner) is just off I80 at exit 184. Tahoe Donner offers the best of skiing with open bowls, a good mix of terrain and trails in a friendly and relaxed environment."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.237522,
+                    39.20334,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Squaw Valley ",
+                "description": "Squaw Valley Ski Resort (http://www.ownerdirect.com/accommodation/squaw-valley) is located just off of Highway 89 on the north shore of Lake Tahoe.  The Mountains consists of 6 peaks, covers 4,000 acres that receive an average annual snowfall of 450 inches."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.96955600000001,
+                    49.342254,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mt. Seymour ",
+                "description": "Mt. Seymour (http://www.ownerdirect.com/accommodation/vancouver) is located in a Provincial Park minutes from Vancouver. The resort offers 200 acres of ski and snowboard terrain with 5 lifts and 4 terrain parks. Come enjoy the fresh mountain air and scenic views with challenging runs for all ability levels."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.29496,
+                    49.478832000000004,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Whitewater ",
+                "description": "Whitewater Mountain Resort is located 12km from the lovely mountain town of Nelson, BC (http://www.ownerdirect.com/accommodation/nelson-bc). Nestled in the mountains this wonderful little resort gets a lot of powder (40ft) and has been awarded with many accolades such as Best Deeps, Best Bowls and Best Glades."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -127.079773,
+                    54.89240600000001,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hudson Bay Mountain",
+                "description": "Hudson Bay Mountain located in the northern town of Smithers, BC (http://www.ownerdirect.com/accommodation/smithers) has plenty of skiing for all levels of abilities. A regional airport makes this destination much more accessible and you will enjoy some beautiful scenery in an uncrowded park."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.221535,
+                    51.081959000000005,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Canada Olympic Park",
+                "description": "Canada Olympic Park (http://www.ownerdirect.com/accommodation/calgary)  located just west of downtown Calgary is full of family fun for everyone. COP offers a variety of winter sports in one location. It also offers experienced snowboarders the opportunity to ride a superpipe."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.192438,
+                    49.456521,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Castle Mountain",
+                "description": "Castle Mountain is approximately a 2.5 hours drive from Calgary, 1.5 hours from Lethbridge and 1.5 hours from the US border. This tucked a<br>away resort in the mountains has something for everyone including a 5km run."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -148.886719,
+                    61.015725,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Alyeska ",
+                "description": "Alyeska Resort is a short drive from the international airport in Anchorage, Alaska. The mountain has a variety of terrain to suit all skier and snowboarder levels. With over 640 inches of snow annually at the summit and breathtaking expansive views of glaciers, water and mountains this is an experience not to be missed."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.703928,
+                    35.330322,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Snowbowl",
+                "description": "Snowbowl Resort in Arizona is only 14 miles from Flagstaff off of Highway 180. With 777 skiable acres serviced and 32 runs there is plenty of fun and challenge for all skier and snowboarder levels. Snowbowl is 2 hrs from Phoenix, AZ and 70 miles from the Grand Canyon."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -109.542732,
+                    33.998597,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sunrise Ski Park",
+                "description": "Sunrise Ski Park is located in Arizona, a scenic 218 miles from Phoenix, 230 miles from Tuscon and 250 miles from Alburquerque southeast of Flagstaff. Sunrise is located in the White Mountains, Arizona. This resort has plenty of fun for the whole family including a children's \"ski-wee\" area."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.871911,
+                    39.64119,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Arapahoe Basin",
+                "description": "A scenic drive from Denver along I70W and Highway 6 is Arapahoe Basin. With an incredible summit of 13,050ft, Arapahoe Basin sits at the base of the Continental Divide. This mountain has it all, challenging trails or deep powder"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -107.881851,
+                    37.306829,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Durango Mountain Resort",
+                "description": "Durango is easy to get to by air, fly from either Denver or Phoenix and the mountain is minutes away from downtown Durango. This is a true family resort and your ski vacation to Durango Mountain will be sure to be filled with many wonderful memories.  The Resort offers many family packages and activities for all ability levels."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.515442,
+                    39.681826,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Echo Mountain",
+                "description": "Echo Mountain is a short drive, only 35 miles from Denver off of I70W and Evergreen Parkway. Echo Mountain offers amazing value and the ski season is generally from December to May. Recently expanded beginner terrain"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.56386500000002,
+                    39.948306,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Eldora Mountain Resort",
+                "description": "Eldora Mountain Resort is in Boulder's backyard, only 21 miles, it's a scenic drive from town. Eldora receives about 300 inches of annual snowfall and has terrain to suit all skier and snowboarder abilities including a double black diamond run and a 3 mile run."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.302781,
+                    39.360383,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Ski Cooper",
+                "description": "Ski Coopers is a great mountain resort that is beautiful, challenging and affordable. Only 110 miles from Denver or 35 miles from Vail, the gem of a resort has the state's best snowcat skiing. It is well suited as a family resort and is one of the most inexpensive resorts in Colorado but includes great skiing and challenge for all abilities."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.782675,
+                    40.474375,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Howelsen Hill ",
+                "description": "Howelsen Hill located in Steamboat Springs, CO is a small but famous ski area. It's the oldest continuous operating ski area in Colorado. It's claim to fame is that Howelsen has sent more skiers to international competition than any other area"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.893297,
+                    39.677863,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Loveland Ski Area",
+                "description": "Loveland is locate don the Continental Divide only 53 scenic miles west of Denver just before the Eisenhower Tunnel. The mountain boasts a 2,210 vertical, 93 trails over 100 acres and an incredible 400 inches in annual snowfall."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.314697,
+                    38.535276,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Monarch Mountain",
+                "description": "This cute resort is nestled in the mountains a couple hours drive southwest of Denver just past Salida, CO. Monarch offers a good balance of runs that is entertaining for all skier and snowboarder abilities. the longest run is 1 mile and the mountain receives an average of 350 inches of snow annually."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -108.14136,
+                    39.188094,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Powderhorn Mtn",
+                "description": "Powderhorn is nestled in an intimate setting 4,000 ft above the valley 45 min from Grand Junction, CO. Powderhorn receives an average of 250 inches in annual snowfall and 1600 acres serviced by 4 lives and 3 terrain parks."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.915413,
+                    40.069402,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sol Vista Basin",
+                "description": "Sol Vista Basin  is located just past Winter Park resort at the Summit at Silver Creek. This resort has a little bit of everything including solphur hot springs.  Over 400 skiable acres serviced by 6 lifts and 35 trails this resort is well balanced and offers a challenge for every ability."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -107.334051,
+                    39.547074,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sunlight Mountain Resort",
+                "description": "Sunlight Mountain Resort is located in Glenwood Springs off of I70 and is about 80 miles from Grand Junction and 160 miles from Denver. A shuttle bus offers a pick-up service from many locations in Glenwood Springs. The resort caters to families as the prices are quite affordable. The mountain has 470 acres with over 67 trails."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.795034,
+                    37.473223,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wolf Creek",
+                "description": "Wolf Creek is located at the top of Wolf Creek Pass in between Pagosa Springs and South Fork, CO. Shuttle service is provided to skiers from Durango/La Plata Airport. The resorts base elevation is 10,300 ft and has over 1,600 skiable acres."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.127369,
+                    45.359865,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hidden Valley Resort",
+                "description": "Hidden Valley Resort is located in Huntsville, ON or 2.5 hours north of Toronto. This cute little resort receives an average of 125 inches of annual snowfall. The resort offers a mix of skiing but is more suited to beginner to intermediate skiers. Perfect for a week-end or week of family fun. Typically skiing runs from December to March."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.508057,
+                    44.625664,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Horseshoe Valley",
+                "description": "Horseshoe Valley Resort is located near Orilla, ON, north of Barrie. This neat little resort is located in a heavy snow belt area of Ontario but it also has state of the art snow making ability. There are 25 runs, one with a 304 ft. vertical, 6 lifts and one terrain with over 20 features. This resort definitely has something for the whole family to enjoy and is about an hour drive from Toronto."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.647032,
+                    42.595428,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kissing Bridge",
+                "description": "Kissing Bridge, NY is a cute resort conveniently located only a couple of hours drive from several cities. Toronto, Canada 2.5hrs, Buffalo 1.5hrs, Erie, PA 1.5 hrs, Cleveland, OH 3.5hrs and Pittsburgh 4hrs. This is a great family resort that offers a variety of activities for everyone in the family to have fun and get out enjoy the fresh winter air. With over 700 skiable acres serviced by 10 lifts and a 550 ft vertical."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.612885,
+                    44.695993,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mount St. Louis Moonstone",
+                "description": "Mount St. Louis Moonstone is about an hour from Toronto just north of Barrie, ON in the snow belt region. This is a family resort with over 170 skiable acres serviced by 12 lifts. This resort really does have something for everyone including super pipes and 2 terrain parks. In European style, this resort was built by an Austrian Alpine skier, Josl Huter and is one of the largest family operated ski resorts in Ontario."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.552912,
+                    47.333646,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Le Massif",
+                "description": "Le Massif Mountain is located approximately 75km from Quebec City along scenic Route 138. The base is just past Petite-Riviere-St.-Francois. This mountain is full of everything, deep powder, a good mix of trails including glades and chutes. Massif also boasts a 2426ft vertical and a whopping"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.378918,
+                    47.030823,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Stoneham ",
+                "description": "Stoneham Mountain is just north of Quebec city off of Route 175. The picturesque mountain has over 326 skiable acres with 39 trails over 4 mountains. The longest run is 3.2km and there is a good mix of trails including double black. For the adventurous there are 4 park zones including 27 rails, super half pipe and 20 foot wall rides. Come experience French culture and the great outdoors at Stoneham Mountain."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.171906,
+                    45.878537,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mont Saint-Saveur",
+                "description": "Mont Saint-Saveur is located 62km northwest of Montreal. This is where skiing started in Quebec and is home to many top Canadian ski champions including Alexandre Bilodeau. Saint Saveur has the largest night skiing area in the world, the largest terrain park in the province and holds the most records for longest ski season; October 31st to June 2nd.  Come see for yourself what is so special about Mont Saint-Saveur."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.189501,
+                    45.875429000000004,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mont Habitant",
+                "description": "Mont Habitant located in the Laurentians is a scenic couple of hours drive from Montreal. While a smaller resort it still offers a variety in terrain and challenge. With night skiing every night, a vertical of 600ft and plenty of snow, come enjoy the stunning scenery and fresh outdoors at Mont Habitant."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.702454,
+                    46.126556,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mont Blanc",
+                "description": "Mont Blanc has it all - some of the most scenic landscapes, one of the regions' highest verticals and a well-respected ski school. Mont Blanc is just 75 minutes north of Montreal and is in the same general area as another well-known mountain - Mt. Tremblant. There is plenty of terrain to cover with 41 trails and a snow park."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.310638,
+                    45.092429,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Owl's Head",
+                "description": "Owl's Head in the Eastern Townships of Quebec is about 1hr 20 min southeast of Montreal, 3 hours from Quebec and 3.5hrs from Ottawa. Owl's Head is a nice little family resort that offers a variety of snow schools for various ages from as young as 3 to 5yrs. This resort also offers ski in/ski out services given the apartment style vacation rentals located at the base of the mountain."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.218056,
+                    45.39652100000001,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mont Orford",
+                "description": "Mont Orford located less than 2 hours from Montreal is part of the Eastern Townships area in Quebec. Experience French culture and scenic terrain at Mont Orford with 245 acres of skiable terrain serviced by 9 lifts. Mont Orford has the fourth largest summit in Quebec and sThis park has a variety of trails to suit all skier and snowboarder levels including glades and double black diamond trails."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.637925,
+                    45.302543,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bromont ",
+                "description": "Mont Bromont is located off of Highway 10 just a short 45 minute drive from Montreal. This stunning area has over 450 acres of skiable terrain spanning 7 slopes with 145 trails. Mont Bromont also has the largest lit skiable area in North America to enjoy plenty of night skiing. Ski Bromont truly wishes each skier to enjoy their experience, the friendly hospitality and quality of its services. Come enjoy French culture and the beautiful mountain landscapes at Mont Bromont."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.577429,
+                    45.106364,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sutton",
+                "description": "Mont Sutton is approximately 1.15hrs from Montreal, 3hrs from Ottawa and Quebec City and 5.45hrs from Toronto. This picturesque mountain has plenty of thrills and fun for everyone including 54 trails over 175 acres serviced by 9 lifts. Mont Sutton boasts a 1500ft vertical drop and plenty of snow. There are 4 chalets located on the mountain, 3 with cozy fireplaces to warm those muscles before heading back out for another round of fun."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.17582,
+                    42.277372,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cockaigne Ski Resort",
+                "description": "Cockaigne Ski Resort is located in the snow belt of NY state off Lake Erie on the way to Erie, PA from Buffalo, NY. This is a family ski area that receives an average of 275 inches of annual snowfall and offers a variety of runs including wide and narrow trails. The longest run is 3600 feet."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.847979,
+                    45.510136,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Camp Fortune",
+                "description": "Camp Fortune is located in Chelsea, QC, northeast of Gatineau (http://www.ownerdirect.com/accommodation/outaouais), QC and Ottawa, ON is a family resort is 23 hills serviced by 7 lifts to enjoy a variety of trails and terrain for all skier and snowboarder levels."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.849466,
+                    45.643928,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Edelweiss",
+                "description": "Edelweiss Ski Resort is located north of Gatineau, QC. This resort receives an average of 120 inches of annual snowfall and spans over 150 acres. With 18 trails including an 625 ft vertical drop, this resort has something for every skier and snowboarder level."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.822673,
+                    45.574038,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mont Cascades",
+                "description": "Mont Cascades is less than a 30 minute drive from Ottawa and about 2 1/2 hours from Montreal. This picturesque resort has a little bit of challenge for everyone, including 60 acres of terrain serviced by 5 lifts including a longest run of 2km. Mont Cascades is located in Cantley, QC."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.975916,
+                    45.93205,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mt. Ste. Marie",
+                "description": "Mont Ste. Marie is just over an hour from Ottawa, ON in the town of Lac Ste. Marie, QC. The resort boasts the highest vertical in the area as well as a good mix of runs for all ski and snowboarder levels. Come enjoy the view from Mont Ste. Marie, QC."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.935884,
+                    45.646868,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Vorlage",
+                "description": "Ski Vorlage is in Wakefield, QC about an hour drive from Ottawa/Hull  and a couple of hours drive form Montreal. This full service resort offers a mix of challenging trails for all levels of abilities and includes 6 evenings of night skiing. Accommodations are available within walking distance of the resort including renting your own vacation rental home or chalet."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.316631,
+                    41.836828,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mohawk Mountain",
+                "description": "Mohawk Mountain located in Cornwall, CT in the scenic Berkshire Mountains. This family owned resort has trails and terrain for the whole family to enjoy including a vertical drop of 650 ft, 24 trails serviced by 7 lifts. Walt Schoenknecht the creator of Mohawk Mountain also invented snow making which has benefited resorts around the world."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.864382,
+                    41.639533,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mount Southington",
+                "description": "Mount Southington is easy to access from anywhere in Connecticut as it is conveniently located off of I-84. This park has trails and terrain for everyone, from the beginner to the expert as well as 2 terrain parks - The Drop Zone and Turkey Turn Park with lots of rails and boxes."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.951722,
+                    41.886943,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Ski Sundown",
+                "description": "Ski Sundown is conveniently located in New Harford, CT, 40 minutes from Hartford, 1hr from New Haven and 1.5hrs from Stamford. With 65 skiable acres and 15 trails serviced by 5 lifts there is fun and excitement for the whole family."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.235264,
+                    41.577186,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Woodbury Ski Area",
+                "description": "Woodbury Ski Area is located off of Washington Rd/CT-47 in the Litchfield Hills of Connecticut. This is the closest ski area to New York City. Driving times are 90 min. from NYC and 45 min. from New Haven and Hartford. Woodbury offers an affordable, convenient ski environment perfect for a family."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.10172699999998,
+                    43.763656,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bogus Basin",
+                "description": "Bogus Basin, located 16.5 miles outside of Boise, Idaho is a skiers paradise with over 2600 skiable acres with wide trails, glades and terrain parks. Average annual snowfall is 200-250 inches. Overnight accommodations are available in Boise or on the mountain. Free shuttle service is available through the main parking lot from the skier pick-up/drop-off area near the J.R. Simplot Lodge past the gold Rush Tubing Hill."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.12568900000001,
+                    45.026344,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brundage Mountain",
+                "description": "Brundage Mountain offers stunning scenery and plenty of powder (over 300 inches annually), challenge and excitement for all skier and snowboarder levels. Brundage has over 46 named runs but also19,000 acres of backcountry cat skiing. The longest run is longer than 2 miles and the mountain also has a 1,800 vertical drop. Definitely a challenge for any level of skier."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.67159,
+                    44.120251,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kelly Canyon Ski Resort",
+                "description": "Kelly Canyon is located just outside of Dubois, north of Idaho Falls. This mountain has a bit of everything for all skiers and snowboarders including 640 skiable acres serviced by 4 lifts. The resort offers night skiing, a good balance of runs and lots of powder, an average of 200 inches annually."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.697808,
+                    47.456996,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lookout Pass",
+                "description": "Lookout Pass Ski & Recreation is located on the Idaho/Montana border in Idaho. It is 100 miles from Missoula and 90 minutes from Spokane, Washington. Lookout was the first ski mountain in Idaho based on the amount of snow it receives - a whopping 400 inches! Because of it's location it is possible to ski in 2 states in one day - Idaho and Montana."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.498367,
+                    42.541951,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Magic Mountain",
+                "description": "Magic Mountain located in Twin Falls, Idaho is southern Idaho's winter destination for families. The mountain offers a bit of everything for the family with 120 acres of skiing and lots of snow (an average of 230 inches) with a 700ft vertical drop and plenty of sunshine."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.159438,
+                    42.777574,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pebble Creek",
+                "description": "Pebble Creek Ski Area is south of Pocatello, Idaho. This resort has more intermediate and advanced runs over 1,100 skiable acres and gladed areas. There is a 2,200 vertical drop.  Pebble Creek attracts skiers and snowboarders who like a challenge but also offers plenty of terrain for everyone. Accommodations are available nearby in the town of Pocatello which also boasts rich natural volcanic mineral baths at the Lava Hot Springs."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.532715,
+                    42.326062,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pomerelle Mountain",
+                "description": "Pomerelle Mountain is a snow lovers paradise, receiving on average 500 inches of powder. Located in the Sawtooth National Forest is a 12 mile drive from Albion, Idaho. This southern mountain resort is attractive for families as it is usual"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.72973600000002,
+                    48.959032,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Silver Mountain",
+                "description": "Silver Mountain has it all and is Idaho's premier winter destination. Silver Mountain is really 2 mountains with 73 trails over 1600 acres of variable terrain and a 2,200 vertical drop. With more than 300 inches of annual snow there is plenty of powder to enjoy and challenge. Conveniently locate d"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.744315,
+                    43.397377,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Soldier Mountain",
+                "description": "Soldier Mountain is located on the outskirts of Sawtooth National Forest, 12 miles north of Fairfiled, Idaho in Camas County. This resort spans 1,150 acres and offers over 15 groomed runs including glades and bowls and a terrain park."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.365387,
+                    43.727445,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sun Valley",
+                "description": "Sun Valley is an all-seasons resort located at the base of the Sawtooth National Forest. This park has it all including a 3 terrain parks featuring a superpipe, miles of cross country skiing and some of the best heli-skiing in the US including open bowls, tree-skiing,"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.11863600000001,
+                    44.672315000000005,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tamarack Resort",
+                "description": "Tamarack Resort is located in the Payette River Mountains in Idaho. This park has 2 terrain parks, an average snowfall of 300 inches and  diverse trails and terrain including glades, cornices and cruisers. The resort also feature nordic, backcountry and snowshoeing. Accommodations are available in Tamarack"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.512456,
+                    38.553535,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Paoli Peaks",
+                "description": "Paoli Peaks in Paoli, IN is a family resort with a good mix of trails but is best suited to beginner and intermediate skiers and snowboarders. There are no accommodations at the resort but many options to choose from within a 30 minute drive."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.887717,
+                    39.146936,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Perfect North Slopes",
+                "description": "Perfect North Slopes offers a variety of terrain and trails for skiers and snowboarders including 23 trails, 2 terrain parks and 25 tubing lanes."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.533203,
+                    41.975827,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Beaver Mountain",
+                "description": "Beaver Mountain located close to the Utah/Idaho border. It's 27 miles east of Logan and 12 miles from Garden City, Utah.  This is one of the smallest ski resorts but a locals favorite due to the friendly atmosphere, uncrowded atmosphere and affordable prices."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.840633,
+                    37.689254,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brian Head",
+                "description": "Brian Head (http://www.ownerdirect.com/accommodation/brian-head) boasts Utah's highest base elevation and consistent snow levels (avg. 400 inches annually) are 2 great ingredients for an amazing day of skiing. With over 650 acres of skiable terrain, 65 trails over 2 mountains and 4 terrain parks Brian Head gives you a lot of bang for your buck."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.583414,
+                    40.598444,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brighton Ski Resort",
+                "description": "Brighton Ski Resort (http://www.ownerdirect.com/accommodation/brighton) is located south of Salt Lake City and Solitude UT. It is incredible value and receives an average of 500 inches of annual snowfall. All terrain is accessed from the same lift, perfect for families to ride together and than ski or snowboard down a trail based on their level of experience. There is something for everyone including trees, chutes, cliffs and natural terrain parks for those that appreciate some extra adrenaline. With over 1050 skiable acres and 66 named runs serviced by 7 lifts there really is a challenge for everyone to enjoy."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.377834,
+                    38.32469,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Eagle Point",
+                "description": "Eagle Point is located just outside of Beaver, Utah in the Tushar Mountains, one of the highest mountain ranges. Eagle Point is an affordable family resort which offers a good mix of trails for all skier and snowboarder levels. With average annual snowfalls of 400 inches, halfpipe and backcountry skiing there really is something for everyone at Eagle Point."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.581097,
+                    40.392711,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sundance Resort",
+                "description": "Sundance Resort (http://www.ownerdirect.com/accommodation/sundance-park-city) is a 4 season destination about an hour drive from Salt Lake City's airport. Relax and enjoy the splendid backcountry terrain or first-rate ski and boarding instruction. There are activities for the entire family to enjoy."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.393412,
+                    42.319653,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chestnut Mountain ",
+                "description": "Chestnut Mountain Resort is a picturesque Midwest ski destination with 220 acres of rolling hills with a 475 vertical drop. The resort also is home to the largest terrain park in the Midwest and includes terrain and trails for all levels of skiers and snowboarders. Located in Galena, IL south of Dubuque. Chestnut has all of the amenities you may look for in a resort in addition to it's small town friendly atmosphere."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.08364,
+                    41.782449,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Four Lakes",
+                "description": "Four Lakes Resort is the closest ski and snowboard resort from Chicago. Located just west of Downer Grove this is a family resort that offers a bit of challenge for all skiers and snowboarders."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.747786,
+                    41.42355,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Ski Snowstar",
+                "description": "Ski Snowstar in Andalusia, IL offers reasonable lift tickets and fun for the whole family. Winter fun includes alpine skiing, snowboarding and tubing. Snowstars' trails are named after astrology themes. Average snowfall is approximately 38 inches and the season usually runs from mid-December to mid-March."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.220072,
+                    42.016014,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Villa Olivia",
+                "description": "Villa Olivia in Bartlett Park District of Illinois offers skiing, snowboarding and snowtubing. Just a short drive from Chicago this resort offers a ski school for beginners as the mountain is geared mostly to beginner to intermediate abilities. The resort does have snow making abilities and is open 7 days of the week."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.855713,
+                    41.401536,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mt. Crescent",
+                "description": "Mt. Crescent is located 15 miles north of Omaha, Iowa in the Loess Hills. This midwest ski resort caters to all levels of skiers and snowboarders offers runs of up 2,000 ft in elevation and a 300 ft vertical drop all at an affordable price."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.691406,
+                    41.640078,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Seven Oaks",
+                "description": "Seven Oaks Ski Resort in Boone, Iowa and offers skiing, snowboarding and tubing. Very much a friendly, family resort, Seven Oaks offers free ski and snowboard lesson to all ages as well as affordable lift tickets."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.813389,
+                    42.516651,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sundown Mountain",
+                "description": "Sundown Mountain located in Dubuque, Iowa and is easily accessible from Chicago, Wisconsin and Missiouri. Come enjoy the spectacular views from the top of the summit where you can see for miles. This resort offers a challenge for every skier and snowboarder featuring 21 trails, 2 terrain parks and 6 lifts with short lift lines. Other nice features of this resort include free ski corral and free timed racing. Vacation rental accommodations are available in nearby Dubuque."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.873445,
+                    42.62417,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Berkshire East",
+                "description": "Berkshire East is located on Mount Institute in Charelmont, MA. Well known for their racing programs as well as hosting giant slalom championship races. Skiing, snowboarding terrain and trails are offered at all skill levels as well as snow tubing. There are 5 lifts over 200 acres of terrain including a decent vertical of 1220 ft."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.907605,
+                    42.194951,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Blandford Ski Area",
+                "description": "Blandford Ski Area is accessible from the Berkshires, New Hampshire and Connecticut. The ski area offers a good mix of runs for all skill levels and also has a freestyle terrain area. Blandford has 28 trails, 2 terrain parks and features a 465 ft. vertical drop. The resort also offers racing programs for those serious about their sport."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.067181,
+                    42.218602,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Blue Hills ",
+                "description": "Blue Hills Ski Area located just outside of Boston in Canton, MA. This small ski resort offers those learning to ski a fun, safe environment while providing other more experienced skiers and snowboarders challenge as well. There are over 60 skiable acres including a 309 vertical drop."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.277228,
+                    42.415948,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bradford",
+                "description": "Bradford Ski Area is a quick drive from Boston and the North Shore. This resort has a bit of everything including lessons, racing, full-service rentals, ski lodge and lots of fun. The convenient location and affordable prices makes it a logical choice for a full day of family fun and adventure."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.057353,
+                    42.744554,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bradford ",
+                "description": "Bradford Ski Area is a quick drive from Boston and the North Shore. This resort has a bit of everything including lessons, racing, full-service rentals, ski l"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.290668,
+                    42.558897,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Jiminy Peak",
+                "description": "Jiminy Peak located in the Berkshires of Western Massachusetts. The mountain resort is easily accessible from NY, Boston, Eastern Massachusetts and Western Connecticut. Why not considering renting your own vacation home or chalet when staying for a week? Vacation rental accommodations are available at the resort and close to town. Featuring a vertical drop of 1150ft, 170 acres of terrain and 45 trails and 3 terrain parks there is something for everyone in the family to enjoy at Jimin. The longest run is 2 miles and some of the trails offer moguls and 1 glade trail. The area receives an average of 100 inches of annual snowfall year."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.443112,
+                    42.542394,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nashoba",
+                "description": "Nashoba ski area in Westford, MA. This affordable family resort offers skiing, snowboarding and tubing. North of Boston this resort is quite accessible from New Hampshire and northeastern Massachusetts."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.91125500000001,
+                    47.085085,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mont Sainte-Anne",
+                "description": "Mont Sainte-Anne (http://www.ownerdirect.com/accommodation/mont-sainte-anne) is a stunning, world-class mountain and is about an hours drive from Quebec City (http://www.ownerdirect.com/accommodation/quebec-city). With over 465 skiable acres, 66 trails on 3 different sides of the mountain and 468cm of natural snowfall this mountain has all of the ingredients for an amazing day of skiing or snowboarding. There are trails and terrain for all ability levels including 3 terrain parks. Snow shoeing and cross-country skiing are also available to enjoy the great outdoors at a different pace. A variety of local vacation rental accommodations are available to suit all budgets."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.957808,
+                    43.786649,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Grand Targhee Ski Resort",
+                "description": "Grand Targhee is located only 42 miles west of Jackson Hole, WY and 87 miles northeast of Idaho Falls, ID in the Caribou-Targhee National Forest. This resort features ski-in/ski out as well as accommodation located off the resort. this area receives over 500 inches of snow a year there is plenty of powder that covers the mountain terrain."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.330004,
+                    42.731379,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hogadon Ski Resort",
+                "description": "Located 11 miles south of Casper, Hogadon Ski Resort features 24 trails of varying difficulty. The resort features a resort building at the summit as well as at the base of the mountain. This is a smaller, family resort and vacation rental accommodations are available nearby in Casper, WY."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.827174,
+                    43.587914,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Jackson Hole Ski Resort",
+                "description": "Jackson Hole (http://www.ownerdirect.com/accommodation/jackson-hole) is Wyoming's premier ski resort. Located 12 miles northwest of Jackson, 5hours from Salt Lake City, UT and 8 hours from Denver, CO. Spanning 2,500 acres over 2 mountains as well as a backcountry area of more than 3,000 acres this resort should be high on your list to visit."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -109.943275,
+                    44.494669,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sleeping Giant Ski Resort",
+                "description": "Sleeping Giant Ski Resort (http://www.ownerdirect.com/accommodation/sleeping-giant)  is located 46 miles west of Cody, WY near Yellowstone National Park. This resort offers a balance of runs and trails with plenty of black diamond for the more adventurous. While no accommodations are available at the mountain, consider staying in Cody, WY (http://www.ownerdirect.com/accommodation/cody)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.68725600000002,
+                    43.484812,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Snow King Ski Resort",
+                "description": "Snow King Ski Resort (http://www.ownerdirect.com/accommodation/snow-king) offers vacation rental accommodations at the resort including condos and chalets. With 60% of the runs advanced, a terrain park and night skiing, enjoy the challenge and the beauty offered at Snow King. Located in Jackson, the airport is only 10 miles away."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -109.775391,
+                    42.988576,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "White Pine Ski Resort",
+                "description": "Wyoming's oldest ski area, White Pine is nestled in the mountains, 10 miles from Pinedale. This 4 season resort offers alpine and nordic sking, snowboarding, horseback riding, mountain biking and fishing. Car rentals are available from Jackson and Salt Lake City airports."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.183906,
+                    41.348013,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Snowy Range Ski Resort",
+                "description": "Located in Laramie, WY, Snowy Range Ski Resort this family resort offers something for the whole family including a variety of different trails, terrain and 1 terrain park. To enjoy nature at a different speed, consider snowshoeing through some beautiful peaceful trails."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.427639,
+                    42.742978,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Alpine Valley Ski Resort",
+                "description": "Located in southern Wisconsin, Alpine Valley Ski Resort (http://www.ownerdirect.com/accommodation/alpine-valley) is easily accessible form Chicago, Milwaukee and St. Louis."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.52949,
+                    43.507414,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cascade Mountain",
+                "description": "Cascade Mountain (http://www.ownerdirect.com/accommodation/cascade-mountain) has fun for the whole family including skiing, boarding, cross country skiing and tubing. Located in Portage, WI it is about 2.5hrs from Chicago and 1.5hrs from Milwaukee."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.858394,
+                    43.615945,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Christmas Mountain",
+                "description": "Christmas Mountain in Wisconsin Dells is about 1hr from Madison and 2hrs from Milwaukee. The resort offers skiing and tubing in the winter and golf in the summer.  Vacation rental accommodations are available at the resort including vacation rental log cabins, villas, cottages and townhomes."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -91.381409,
+                    45.512272,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Christie Mountain Resort",
+                "description": "Christie Mountain Resort (http://www.ownerdirect.com/accommodation/christie-mountain) is located in Bruce, WI. With a variety of terrain and trails including 4 progressive terrain parks, there is truly a challenge for everyone. A variety of rental accommodation is available off the resort grounds."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.615479,
+                    43.421009,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Devil's Head",
+                "description": "Devil's Head (http://www.ownerdirect.com/accommodation/devils-head) is located South Central Wisconsin only 3hrs from Chicago. Featuring well groomed trails, open glades and a terrain park with more trails, flow and rails than any other ski area in Wisconsin."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.39817000000001,
+                    42.608695000000004,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Grand Geneva",
+                "description": "This resort is a wonderful week-end getaway for those living in the big cities of Chicago and Milwaukee. Set in the countryside in Lake Geneva surrounded by valleys and meadows, experience nature at its best. Grand Geneva (http://www.ownerdirect.com/accommodation/grand-geneva) offers a variety of trails and terrain for skiers as well as cross country skiing."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.681067,
+                    44.935155,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Granite Peak ",
+                "description": "Located in Rib Mountain State Park in Wausau, WI, Granite Peak offers 74 runs of varying challenge including a 700 ft. vertical drop and 6 terrain parks. With such diverse and challenging terrain there is fun and challenge for everyone."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.691598,
+                    44.101455,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hidden Valley",
+                "description": "Located in the northern hills of Manitowoc County in Two Rivers about 15 minutes from Green Bay is Hidden Valley Resort. This small resort offers a balanced variety of groomed trails and terrain as well as a snowboard park and ski and boarding lessons."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.475869,
+                    43.0892,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Highlands of Olympia",
+                "description": "This small family resort is a great learning hill as 50% of the runs are beginner and 30% are intermediate. Affordable and friendly are two other reasons families like to experience a day of skiing here."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -91.183183,
+                    43.742887,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mount La Crosse",
+                "description": "Experience winter at Mount La Crosse in La Crosse, WI.This resort offers a variety of terrain and trails for all skier and boarder abilities, including Wisconsin's longest run and steepest trail."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.174066,
+                    44.116245000000006,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nordic Mountain",
+                "description": "Nordic Mountain is easily accessible from Appleton, Oshkosh, Stevens Point and Madison. A variety of activities are offered including alpine and cross country skiing, boarding, snowshoeing and snow tubing. A variety of vacation rental accommodations are available nearby in Wautoma."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.222729,
+                    43.493872,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sunburst",
+                "description": "Sunburst Ski Area (http://www.ownerdirect.com/accommodation/sunburst-wisconsin) is located in Kewaskum, WI. Easily accessible from Milwaukee, Sheboygan, Madison and Waukesha, this resort offers a variety of trails and terrain for all abilities including 3 terrain parks."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.618058,
+                    45.350547,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Trollhaugen Ski Area",
+                "description": "Located in Dresser, WI, Trollhaugen (http://www.ownerdirect.com/accommodation/trollhaugen) is a great, friendly family resort. There are 22 runs over 90 skiable acres including night skiing, snow tubing and 2 terrain parks. An affordable resort there are trails to suit all levels of ability."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.781146,
+                    43.045244,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tyrol Basin",
+                "description": "Tyrol Basin (http://www.ownerdirect.com/accommodation/tyrol-basin) is easily accessible from Madison and Illinois near Mt. Horeb.The resort offers a variety of runs to challenge all skier and boarding levels."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.39603,
+                    46.407564,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Whitecap Mountain",
+                "description": "Whitecap Mountain (http://www.ownerdirect.com/accommodation/whitecap-mountain) is located just west of Hurley and Ironwood, MI. Whitecap is actually 3 mountains of fun and challenge perfect for a family to enjoy."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.187613,
+                    42.505452000000005,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wilmot Mountain",
+                "description": "Wilmot Mountain is a scenic hour drive from Chicagoland, perfect for a day or week-end getaway. Activities include skiing, boarding and tubing - lots of fun for the entire family. There are 25 runs of varying degrees of challenge as well as terrain parks for the more adventurous boarders."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.467602,
+                    39.032253,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Canaan Valley",
+                "description": "Canaan Valley (http://www.ownerdirect.com/accommodation/canaan-valley) is located in the Allegheny Mountains north of central West Virginia and is only a 3hr drive from Pittsburgh and Washington, DC. There is challenge and excitement for everyone at Canaan Valley given a balance mix of trails and terrain including 2 terrain parks and tubing."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.995021,
+                    38.410087,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Snowshoe Mountain",
+                "description": "Snowshoe Mountain (http://www.ownerdirect.com/accommodation/snowshoe) is easily accessible from Pittsburgh, Washington, DC, Baltimore and Virginia Beach areas. There are trails and terrain for all skier and boarder abilities including more than 21 acres of freestyle features."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.425659,
+                    39.057584,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Timberline Mountain",
+                "description": "Timberline Mountain a four season resort is nestled in the Canaan Mountains and features  variety of terrain and trails for skier and boarder abilities covered by 200 inches of annual snowfall. Ski-in, ski out accommodation are available on the mountain or you can opt to stay in town at your own vacation rental."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.400238,
+                    47.393875,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Alpental Ski Resort",
+                "description": "Alpental Ski Resort is easily accessible as a day trip from either Seattle or Spokane areas. The resort consists of 4 mountains and offers skiing, snowboarding, tubing and snowshoeing. This diverse resort offers it all - steep and deep terrain, freestyle parks and pipe as well as easy learning areas."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.979438,
+                    46.319637,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bluewood",
+                "description": "Bluewood (http://www.ownerdirect.com/accommodation/bluewood) is 150miles from Spokane, 52 miles from Walla Walla and 21 miles from Dayton, WA. This family resort offers a balance mix of runs and terrain for everyone including a longest run of 2.25 miles.  A variety of vacation rental accommodation is found in Dayton, WA."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.469078,
+                    46.953075,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Crystal Mountain",
+                "description": "Only a 90 minute drive from Tacoma and 105 minutes from Seattle is Crystal Mountain Ski Resort (http://www.ownerdirect.com/accommodation/crystal-mountain).  This is the largest ski area in Washington (over 2,600 acres) with 50 named runs and over 360 inches of annual snowfall. Come experience    Washington's favorite winter destination."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.398927,
+                    47.291456,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mission Ridge Ski Resort",
+                "description": "Located in Wenatchee, Mission Ridge Ski Resort (http://www.ownerdirect.com/accommodation/mission-ridge) is 138miles from Seattle and 165miles from Spokane. Mission Ridge is found on the eastern side of the Cascade Mountains. This is a family ski resort with lots of dry powder, open spaces and over 300 days of sunshine.There are 36 runs over 2,000 skiable acres."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.28798899999998,
+                    47.585558,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mt. Baker",
+                "description": "Mt. Baker (http://www.ownerdirect.com/accommodation/mount-baker-snoqualmie-forest) receives a lot of powder, over 640 inches annually. Mt. Baker has it all, a balanced mix of terrain and trails for all skier and boarder abilities combined with plenty of snow and sunshine."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.110367,
+                    47.943947,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mt. Spokane",
+                "description": "Only 28 miles from downtown Spokane, nestled in Mt. Spokane State Park is Mt. Spokane (http://www.ownerdirect.com/accommodation/mount-spokane). There is 1,425 skiable acres with 45 runs and a 2,000 vertical drop. The terrain park features a mile of progressive challenges for all freestyler abilities."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.092267,
+                    47.744114,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Stevens Pass",
+                "description": "Only 78 miles from Seattlein the Skykomish Valley is Stevens Pass (http://www.ownerdirect.com/accommodation/stevens-pass). This area receives alot of dry snowfall, an average of 450 inches annually. With 1,125 skiable acres and 37 runs there is fun and challenge for all skier and boarder abilities."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.418853,
+                    47.421874,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Summit at Snoqualmie",
+                "description": "The Summit at Snoqualmie is easily accessible from Seattle and Spokane, WA. This resort is actually 4 different summits offering a variety of terrain and challenge for all skier and snowboarder abilities. The mountain also offers nordic skiing, snowshoeing and tubing."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.389585,
+                    46.637297,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "White Pass Mountain",
+                "description": "Located in the Cascade region south of Mount Rainer is White Pass Mountain (http://www.ownerdirect.com/accommodation/white-pass).  This area receives an average of 350 inches of annual snowfall. 60% of the trails are geared towards intermediate skiers and boarders but there is 20% each dedicated to beginners and the more adventurous."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.564197,
+                    48.301353,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "49 Degrees North",
+                "description": "Located near the Washington/Idaho border, 49 Degrees North is easily accessible from Spokane, Canada and the Coeur d'Alene area. With 2,325 skiable acres, 75 trails and an average annual snowfall of 300 inches there is plenty of fun and challenge to be experienced here. Other highlights include a longest run of 2.75 miles and a vertical drop of 1,851 ft."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.408364,
+                    43.392419,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Ascutney ",
+                "description": "Ascutney (http://www.ownerdirect.com/accommodation/ascutney) is known for it's steep and deep trails. Located in southern Vermont,this resort offers a balanced mix of trails and terrain and receives an average of 200 inches of annual snowfall."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.772765,
+                    43.201422,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Magic Mountain",
+                "description": "Magic Mountain (http://www.ownerdirect.com/accommodation/magic-mountain) located in southern Vermont is easily accessible from Manchester (25min.), Albany, NY (1.5hrs), Hartford, CT (2hrs), Boston, MA (2.5hrs) and NYC (4.5hrs). Offering a balance mix of runs over 135 skiable acres there is plenty of fun and challenge for the entire family. A variety of rental accommodations are located nearby in Londonderry, VT."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.849451,
+                    44.420862,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bolten Valley ",
+                "description": "With over 70 trails for skiing and boarding, 2 terrain parks as well as an extensive backcountry system there is plenty of challenge and adventure for the entire family at Bolten Valley Ski Resort. Easily accessible from all northeastern cities, this affordable family resort receives an average of 312 inches of annual snowfall."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.89888,
+                    44.564056,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Burke Mountain",
+                "description": "Burke Mountain (http://www.ownerdirect.com/accommodation/burke) located in northeastern Vermont is easily accessible from Canada and southern Vermont. This friendly resort offers winding trails and glades over 250 acres of terrain that receive an average of 217 inches of annual snowfall."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.933698,
+                    43.21506,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bromely Mountain",
+                "description": "Bromely Mountain (http://www.ownerdirect.com/accommodation/bromley) is a convenient week-end getaway from Boston, NYC, Albany or Hartford areas.A variety of activities are available for the entire family including skiing, boarding, cross-country skiing, sleigh rides, dog sledding and snowmobiling."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.460291,
+                    44.964828,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Jay Peak",
+                "description": "This is a four season resort destination located in Jay, VT and accessible from Canada, Albany, NY, Boston, MA, Hartford, CT and NYC, NY. Jay Peak (http://www.ownerdirect.com/accommodation/jay-peak) is 2 peaks over 385 skiable acres and 76 trails, chutes and glades. A variety of vacation rental options are available at the resort as well in town."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.921288,
+                    44.200359,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mad River Glen Resort",
+                "description": "Located in Mad River Valley in central Vermont, Mad River Glen Resort (http://www.ownerdirect.com/accommodation/mad-river-glen) is only 1hr from Burlington, VT, 3hrs from Montreal, 3.5hrs from Boston and 6hrs from NYC.A variety of vacation rental accommodations are available close to the resort. Featuring some of the most challenging skiing in the east with plenty of glades, chutes, bumps and lots of snow this is a resort for those who enjoy challenge and adventure."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.716117,
+                    43.403676,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Okemo Mountain Resort",
+                "description": "Located in Ludlow, VT, Okemo Mountain Resort (http://www.ownerdirect.com/accommodation/okemo) is a great family resort with a variety of trails and terrain including parks and pipes for everyone. Easily accessible from major cities such as Boston (3hrs), Albany (2hrs), NYC (5hrs) and Manchester (2.25hrs) this resort focuses on providing quality service and has been awarded numerous past accolades. With over 630 acres of terrain serviced by 19 lifts as we as 6 terrain parks and 1 superpipe."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.84910400000001,
+                    43.661197,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pico Mountain",
+                "description": "Pico Mountain Ski Resort has over 250 skiable acres of terrain and 50 trails for all skier and boarder abilities. Featuring a vertical drop of 1,967ft and a longest run named \"The Pike\" you are sure to find some adventure and challenge at Pico Mountain.A variety of vacation rental accommodations are available in Killington, VT (http://www.ownerdirect.com/accommodation/killington)."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.518912,
+                    43.623013,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Suicide Six",
+                "description": "Suicide Six located near Woodstock, VT is a family friendly resort offers a balanced mix of 23 trails and terrain for all skier and snowboarder abilities. Easily accessible from New York, Connecticut or Massachusetts this resort offers a full day of fun in a f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.868129,
+                    41.309212,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wolf Creek Utah Ski Resort",
+                "description": "Wolf Creek Ski Resort is located in Eden about an hour from Salt Lake City. This is a family resort that offers terrain and trails for all levels of skier and boarder abilities. The resort also offers over 20acres of terrain park also offering a variety of feature and challenge. Choose to stay at Wolf Creek Ski Resort in your own vacation rental unit such as a condo, townhouse or chalet."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.787199,
+                    44.555005,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Smugglers Notch",
+                "description": "Filled with hiking trails and a ski area the historic former smuggler's trail is popular year round. Located on the other side of the notch is the city of Stowe (http://www.ownerdirect.com/accommodation/stowe).  Smugglers Notch (http://www.ownerdirect.com/accommodation/smugglers-notch) is actually 3 mountains that connect and offers over 1,000 skiable acres of terrain and trails for skier and snowboarder abilities including steep and deep glades and wide groomed paths. There is also 58km of cross-country skiing and snowshoeing trails."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -134.557858,
+                    58.32103,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Eagle Crest Ski Resort",
+                "description": "Minutes from downtown Juneau experience skiing and snowboarding at Eaglecrest Ski Resort in Alaska. With 640 skiable acres and 31 trails there is a good mix of terrain for ability levels."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.104248,
+                    32.082575,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "xyz"
+            }
+        }
+    ]
+}
