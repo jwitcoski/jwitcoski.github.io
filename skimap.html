@@ -9,97 +9,12 @@
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
 </head>
 <body>
-	<div id="map" style="width: 100%; height: 500px"></div>
-   <!-- Bring in the leaflet KML plugin -->
-   <script src="leaflet-plugins/layer/vector/KML.js"></script> 
-	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-	<script>
-		var cities = new L.LayerGroup();
-
-		L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.').addTo(cities),
-		L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.').addTo(cities),
-		L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.').addTo(cities),
-		L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.').addTo(cities);
-
-		var OpenWeatherMap_Snow = L.tileLayer('http://{s}.tile.openweathermap.org/map/snow/{z}/{x}/{y}.png', {
-			maxZoom: 19,
-			attribution: 'Map data &copy; <a href="http://openweathermap.org">OpenWeatherMap</a>',
-			opacity: 0.5
-		});
-var NASAGIBS_ModisTerraSnowCover = L.tileLayer('http://map1.vis.earthdata.nasa.gov/wmts-webmerc/MODIS_Terra_Snow_Cover/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
-	attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
-	bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
-	minZoom: 1,
-	maxZoom: 8,
-	format: 'png',
-	time: '',
-	tilematrixset: 'GoogleMapsCompatible_Level',
-	opacity: 0.75
-})
-;
-		
-	    var mbAttr = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-			mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwcGluZ3RoaW5ncyIsImEiOiJkSy1MRlNVIn0.jt2ol5HlgFaCdx4Ajn5WjA';
-
-	    var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
-		    streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr});
-			OpenStreetMap  =
-				L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				maxZoom: 19,
-				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'})
-			MapQuestOpen_Aerial = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/{type}/{z}/{x}/{y}.{ext}', {
-				type: 'sat',
-				ext: 'jpg',
-				attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency',
-				subdomains: '1234'
-				}),
-			WinterWonderland = L.tileLayer('https://api.tiles.mapbox.com/v4/andreasviglakis.76e0cee7/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiYW5kcmVhc3ZpZ2xha2lzIiwiYSI6IlVremRqN0kifQ.CFFJsLuWWyuhgsZTb51jWg', {
-			maxZoom: 18,
-			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-				'Designed by <a href="https://www.mapbox.com/blog/winter-wonderland/">Andreas Viglakis of Mapbox</a>',
-		})	
-				;
-				
-		var map = L.map('map', {
-			center: [39.73, -104.99],
-			zoom: 10,
-			layers: [WinterWonderland, cities]
-		});
-
-		var baseLayers = {
-			"Grayscale": grayscale,
-			"Streets": streets,
-			"OpenStreetMap":OpenStreetMap,
-			"MapQuestOpen Aerial":MapQuestOpen_Aerial,
-			"Winter Wonderland by Andreas Viglakis":WinterWonderland
-		};
-
-		var overlays = {
-			"Cities": cities,
-			"OpenWeatherMap Snow":OpenWeatherMap_Snow,
-			"NASAGIBS_ModisTerraSnowCover":NASAGIBS_ModisTerraSnowCover
-		};
-
-		L.control.layers(baseLayers, overlays).addTo(map);
-	</script>
-</body>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Leaflet Layers Control Example</title>
-	<meta charset="utf-8" />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-</head>
-<body>
-	<div id="map" style="width: 600px; height: 400px"></div>
+	<div id="map" style="width: 100%; height: 400px"></div>
 
 	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+	  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+ <script src="http://code.jquery.com/jquery.min.js"></script>
 	<script>
 		var cities = new L.LayerGroup();
 
@@ -121,7 +36,16 @@ var NASAGIBS_ModisTerraSnowCover = L.tileLayer('http://map1.vis.earthdata.nasa.g
 	time: '',
 	tilematrixset: 'GoogleMapsCompatible_Level',
 	opacity: 0.75
-});
+			});
+		var GoogleSkiPoints =  $.getJSON("http://jwitcoski.github.io/mapbox/googleskiresorts.geojson",function(data){
+	L.geoJson(data,{
+    pointToLayer: function(feature,latlng){
+      var marker = L.marker(latlng,{});
+      marker.bindPopup(feature.properties.name + '<br/>' + feature.properties.description);
+      return marker;
+    }
+	}).addTo(map);
+	});
 		
 	    var mbAttr = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
 				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
@@ -165,7 +89,8 @@ var NASAGIBS_ModisTerraSnowCover = L.tileLayer('http://map1.vis.earthdata.nasa.g
 		var overlays = {
 			"Cities": cities,
 			"OpenWeatherMap Snow":OpenWeatherMap_Snow,
-			"NASAGIBS_ModisTerraSnowCover":NASAGIBS_ModisTerraSnowCover
+			"NASAGIBS_ModisTerraSnowCover":NASAGIBS_ModisTerraSnowCover,
+			"GoogleSkiPoints":GoogleSkiPoints
 		};
 
 		L.control.layers(baseLayers, overlays).addTo(map);
