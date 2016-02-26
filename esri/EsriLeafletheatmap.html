@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Federal Deposit Insurance Corporation (FDIC) Insured Banks as a heatmap</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <!-- Load Leaflet from CDN-->
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.css" />
+  <script src="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.js"></script>
+
+  <!-- Load Esri Leaflet from CDN -->
+  <script src="//cdn.jsdelivr.net/leaflet.esri/2.0.0-beta.7/esri-leaflet.js"></script>
+
+  <style>
+    body { margin:0; padding:0; }
+    #map { position: absolute; top:0; bottom:0; right:0; left:0; }
+  </style>
+</head>
+<body>
+
+<!-- Include Leaflet.heat via rawgit.com, do not use in production -->
+<script src="//rawgit.com/Leaflet/Leaflet.heat/gh-pages/dist/leaflet-heat.js"></script>
+
+<!-- Load Heatmap Feature Layer from CDN -->
+<script src="//cdn.jsdelivr.net/leaflet.esri.heatmap-feature-layer/2.0.0-beta.1/esri-leaflet-heatmap-feature-layer.js"></script>
+
+<div id="map"></div>
+
+<script>
+  var map = L.map('map').setView([ 40.706, -73.926], 14);
+
+  L.esri.basemapLayer('Gray').addTo(map);
+
+  L.esri.Heat.heatmapFeatureLayer({
+    url: 'https://services2.arcgis.com/1cdV1mIckpAyI7Wo/ArcGIS/rest/services/Federal_Deposit_Insurance_Corporation_(FDIC)_Insured_Banks/FeatureServer/0',
+    radius: 12
+  }).addTo(map);
+</script>
+
+</body>
+</html>
