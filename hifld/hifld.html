@@ -22727,10 +22727,10 @@
 
   // Bind a popup to each feature in osmLayer and hifldLayer
   hifldLayer.eachLayer(function (layer) {
-    layer.bindPopup('OSM '+'<strong>' + layer.feature.properties.name + '</strong>', { closeButton: false });
+    layer.bindPopup('HIFLD '+'<strong>' + layer.feature.properties.name + '</strong>', { closeButton: false });
   }).addTo(map);
   osmLayer.eachLayer(function (layer) {
-    layer.bindPopup('HIFLD '+layer.feature.properties.name, { closeButton: false });
+    layer.bindPopup('OSM '+layer.feature.properties.name, { closeButton: false });
   }).addTo(map);
 
   // Open popups on hover
@@ -22767,7 +22767,7 @@
     // Bind popups to new hifldLayer and open popup
     // for nearest hospital
     hifldLayer.eachLayer(function (layer) {
-      layer.bindPopup('OSM '+'<strong>' + layer.feature.properties.name + '</strong>', { closeButton: false });
+      layer.bindPopup('HIFLD '+'<strong>' + layer.feature.properties.name + '</strong>', { closeButton: false });
       if (layer.feature.properties['marker-size'] === 'large') {
         layer.openPopup();
       };
