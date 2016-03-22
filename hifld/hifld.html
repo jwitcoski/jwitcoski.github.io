@@ -12,6 +12,30 @@
 </style>
 </head>
 <body>
+<style>
+.legend label,
+.legend span {
+  display:block;
+  float:left;
+  height:15px;
+  width:20%;
+  text-align:center;
+  font-size:9px;
+  color:#808080;
+  }
+</style>
+
+<!-- Set the display of this container to none so we can
+     add it programmatically to `legendControl` -->
+
+
+<div id="legend" style="display:none;">
+  <strong>Hospital Datasets</strong>
+  <nav class="legend clearfix">
+	<li><span style='background:#DC143C;'marker-symbol':'hospital';'marker-size':'small';></span>OSM</li>  
+	<li><span style='background:#4169E1;'marker-symbol':'hospital';'marker-size':'small';></span>HIFLD Open</li> 
+</nav></div>
+
   <div id='map'></div>
   <script>
   L.mapbox.accessToken = 'pk.eyJ1IjoibHl6aWRpYW1vbmQiLCJhIjoiRkh4OW9layJ9.P2o48WlCqjhGmqoFJl3C_A';
@@ -22716,6 +22740,7 @@
 
   var map = L.mapbox.map('map', 'mapbox.light')
     .setView([40.2629957, -76.6757456], 15);
+	map.legendControl.addLegend(document.getElementById('legend').innerHTML);
 
 
   var osmLayer = L.mapbox.featureLayer(osm)
