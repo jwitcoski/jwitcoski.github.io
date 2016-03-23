@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>Load GeoJSON from a URL</title>
+<title>Underwater Cable Map of the World</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
 <link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
@@ -31,10 +31,16 @@ var featureLayer = L.mapbox.featureLayer(featureLayer, {
     "color": "black",
     "weight": 1,
     "opacity": 0.65,
-}
+	}
 })
     .loadURL('http://jwitcoski.github.io/cable/cable.geojson')
     .addTo(map);
+  
+  // Bind a popup to each feature in featureLayer
+  featureLayer.eachLayer(function (layer) {
+    layer.bindPopup('<strong>' + layer.feature.properties.name + '</strong>', { closeButton: false });
+  }).addTo(map);  
+  
   
 </script>
 </body>
