@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>A Site Survery of Antikythera Greece</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-heat/v0.1.3/leaflet-heat.js'></script>
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+<div id='map'></div>
+
+<script>
+
+
+
+
+
+L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGluZ3RoaW5ncyIsImEiOiJkSy1MRlNVIn0.jt2ol5HlgFaCdx4Ajn5WjA';
+var map = L.mapbox.map('map')
+    .setView([35.868743, 23.274536], 13);
+
+L.control.layers({
+    'Mapbox Satellite': L.mapbox.tileLayer('mapbox.satellite').addTo(map),
+    'Mapbox Light': L.mapbox.tileLayer('mapbox.light')
+}, {
+    "Geology": L.mapbox.featureLayer(geologyLayer),
+	"Pottery":L.mapbox.featureLayer(potteryLayer)
+	/*
+	"Counts": countsLayer,
+	"Structures":standingstructuresLayer,
+	"Other":otherLayer,
+	"Pottery":potteryLayer,
+	"Lithics":lithicsLayer,
+	"Tracts":tractsLayer,
+	"Grids":gridsLayer,
+	"Terraces":terracesLayer
+	*/
+}).addTo(map);
+
+		
+// Load all the layers in
+
+var geologyLayer = L.mapbox.featureLayer(geologyLayer, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, geologyLayer);
+    },
+	style: {
+    "color": "red",
+    "weight": 1,
+    "opacity": .3,
+	}
+})
+    .loadURL('http://jwitcoski.github.io/Antikythera/data/geology.geojson')
+	.addTo(map)
+/*
+var tractsLayer = L.mapbox.featureLayer(tractsLayer, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, tractsLayer);
+    },
+	style: {
+    "color": "yellow",
+    "weight": 1,
+    "opacity": .3,
+	}
+})
+    .loadURL('http://jwitcoski.github.io/Antikythera/data/tracts.geojson')
+    .addTo(map);
+
+var gridsLayer = L.mapbox.featureLayer(gridsLayer, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, gridsLayer);
+    },
+	style: {
+    "color": "pink",
+    "weight": 1,
+    "opacity": .3,
+	}
+})
+    .loadURL('http://jwitcoski.github.io/Antikythera/data/grids.geojson')
+    .addTo(map);
+
+var terracesLayer = L.mapbox.featureLayer(terracesLayer, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, terracesLayer);
+    },
+	style: {
+    "color": "black",
+    "weight": 1,
+    "opacity": .3,
+	}
+})
+    .loadURL('http://jwitcoski.github.io/Antikythera/data/terraces.geojson')
+    .addTo(map);
+
+var lithicsLayer = L.mapbox.featureLayer(lithicsLayer, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, lithicsLayer);
+    },
+	style: {
+    "color": "black",
+    "weight": .6,
+    "opacity": .3,
+	}
+})
+    .loadURL('http://jwitcoski.github.io/Antikythera/data/lithics.geojson')
+    .addTo(map);	
+*/
+var potteryLayer = L.mapbox.featureLayer(potteryLayer, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, potteryLayer);
+    },
+	style: {
+    "color": "orange",
+    "weight": .6,
+    "opacity": .3,
+	}
+})
+    .loadURL('http://jwitcoski.github.io/Antikythera/data/pottery.geojson')
+    .addTo(map);		
+/*
+var otherLayer = L.mapbox.featureLayer(otherLayer, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, otherLayer);
+    },
+	style: {
+    "color": "green",
+    "weight": .6,
+    "opacity": .3,
+	}
+})
+    .loadURL('http://jwitcoski.github.io/Antikythera/data/other.geojson')
+    .addTo(map);
+
+var standingstructuresLayer = L.mapbox.featureLayer(standingstructuresLayer, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, standingstructuresLayer);
+    },
+	style: {
+    "color": "red",
+    "weight": .6,
+    "opacity": .3,
+	}
+})
+    .loadURL('http://jwitcoski.github.io/Antikythera/data/standingstructures.geojson')
+    .addTo(map);
+
+var countsLayer = L.mapbox.featureLayer(countsLayer, {
+    pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, countsLayer);
+    },
+	style: {
+    "color": "teal",
+    "weight": .6,
+    "opacity": .3,
+	}
+})
+    .loadURL('http://jwitcoski.github.io/Antikythera/data/standingstructures.geojson')
+    .addTo(map);
+
+
+*/		
+</script>
+</body>
+</html>
