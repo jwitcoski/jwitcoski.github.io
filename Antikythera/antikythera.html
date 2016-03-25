@@ -6,11 +6,12 @@
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
 <link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
-<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-heat/v0.1.3/leaflet-heat.js'></script>
+
 <style>
   body { margin:0; padding:0; }
   #map { position:absolute; top:0; bottom:0; width:100%; }
 </style>
+<!--legend stuff -->
 <style>
 .legend label,
 .legend span {
@@ -27,7 +28,7 @@
 <!-- Set the display of this container to none so we can
      add it programmatically to `legendControl` -->
 
-
+<!--legend stuff -->
 <div id="legend" style="display:none;">
   <strong>The Antikythera Survey Project</strong>
   <nav class="legend clearfix">
@@ -45,63 +46,56 @@
 
 
 
-
+//load the map
 
 L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGluZ3RoaW5ncyIsImEiOiJkSy1MRlNVIn0.jt2ol5HlgFaCdx4Ajn5WjA';
 var map = L.mapbox.map('map')
-    .setView([35.868743, 23.274536], 13);
+    .setView([35.87, 23.28], 14);
 	map.legendControl.addLegend(document.getElementById('legend').innerHTML);
-
 		
 // Load all the layers in
 
 var geologyLayer = L.mapbox.featureLayer(geologyLayer, {
-    pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, geologyLayer);
-    },
 	style: {
-    "color": "red",
-    "weight": 1,
-    "opacity": .3,
+	"fillColor": function(feature){
+			if (Feature.Properties.Area > 3)
+				{
+				return { "fillColor":"Black"};
+				}
+				else
+				return { "fillColor":"green"};
+				},
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/geology.geojson')
+	.addTo(map)
 ;
 
 var tractsLayer = L.mapbox.featureLayer(tractsLayer, {
-    pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, tractsLayer);
-    },
 	style: {
-    "color": "yellow",
-    "weight": 1,
-    "opacity": .3,
+    "color": "Black",
+    "weight": 3,
+    "opacity": .5,
 	}
-})
+	})
     .loadURL('http://jwitcoski.github.io/Antikythera/data/tracts.geojson')
 
 
 var gridsLayer = L.mapbox.featureLayer(gridsLayer, {
-    pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, gridsLayer);
-    },
 	style: {
-    "color": "pink",
-    "weight": 1,
-    "opacity": .3,
+    "color": "Black",
+    "weight": 3,
+    "opacity": .5,
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/grids.geojson')
 
 
 var terracesLayer = L.mapbox.featureLayer(terracesLayer, {
-    pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, terracesLayer);
-    },
 	style: {
     "color": "black",
     "weight": 1,
-    "opacity": .3,
+    "opacity": .9,
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/terraces.geojson')
@@ -113,8 +107,8 @@ var lithicsLayer = L.mapbox.featureLayer(lithicsLayer, {
     },
 	style: {
     "color": "black",
-    "weight": .6,
-    "opacity": .3,
+    "weight": 1,
+    "opacity": .9,
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/lithics.geojson')
@@ -172,7 +166,7 @@ var countsLayer = L.mapbox.featureLayer(countsLayer, {
     .loadURL('http://jwitcoski.github.io/Antikythera/data/standingstructures.geojson')
     ;
 
-
+//map legend
 	
 L.control.layers({
     'Mapbox Satellite': L.mapbox.tileLayer('mapbox.satellite').addTo(map),
@@ -183,34 +177,24 @@ L.control.layers({
 	'MtbMap' : L.tileLayer('http://tile.mtbmap.cz/mtbmap_tiles/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &amp; USGS'
 		}),
-	'HERE_hybridDay' : L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/hybrid.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
-		attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
-		subdomains: '1234',
-		mapID: 'newest',
-		app_id: '<your app_id>',
-		app_code: '<your app_code>',
-		base: 'aerial',
-		maxZoom: 20,
-		type: 'maptile',
-		language: 'eng',
-		format: 'png8',
-		size: '256'
-		}),
 	'Esri_WorldImagery' : L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 		attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 		}),
 	
-}, {
+	},
+	{
+	"Grids":gridsLayer,
+	"Tracts":tractsLayer,
+	"Terraces":terracesLayer,
     "Geology": geologyLayer,
 	"Pottery":potteryLayer,
 	"Counts": countsLayer,
 	"Structures":standingstructuresLayer,
 	"Other":otherLayer,
 	"Lithics":lithicsLayer,
-	"Tracts":tractsLayer,
-	"Grids":gridsLayer,
-	"Terraces":terracesLayer
-}).addTo(map);	
+}).addTo(map);
+;
+
 </script>
 </body>
 </html>
