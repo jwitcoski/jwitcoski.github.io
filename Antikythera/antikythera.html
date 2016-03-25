@@ -25,24 +25,6 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGluZ3RoaW5ncyIsImEiOiJkSy1MRlNVIn0.jt2ol
 var map = L.mapbox.map('map')
     .setView([35.868743, 23.274536], 13);
 
-L.control.layers({
-    'Mapbox Satellite': L.mapbox.tileLayer('mapbox.satellite').addTo(map),
-    'Mapbox Light': L.mapbox.tileLayer('mapbox.light')
-}, {
-    "Geology": L.mapbox.featureLayer(geologyLayer),
-	"Pottery":L.mapbox.featureLayer(potteryLayer)
-	/*
-	"Counts": countsLayer,
-	"Structures":standingstructuresLayer,
-	"Other":otherLayer,
-	"Pottery":potteryLayer,
-	"Lithics":lithicsLayer,
-	"Tracts":tractsLayer,
-	"Grids":gridsLayer,
-	"Terraces":terracesLayer
-	*/
-}).addTo(map);
-
 		
 // Load all the layers in
 
@@ -57,8 +39,8 @@ var geologyLayer = L.mapbox.featureLayer(geologyLayer, {
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/geology.geojson')
-	.addTo(map)
-/*
+;
+
 var tractsLayer = L.mapbox.featureLayer(tractsLayer, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, tractsLayer);
@@ -70,7 +52,7 @@ var tractsLayer = L.mapbox.featureLayer(tractsLayer, {
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/tracts.geojson')
-    .addTo(map);
+
 
 var gridsLayer = L.mapbox.featureLayer(gridsLayer, {
     pointToLayer: function (feature, latlng) {
@@ -83,7 +65,7 @@ var gridsLayer = L.mapbox.featureLayer(gridsLayer, {
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/grids.geojson')
-    .addTo(map);
+
 
 var terracesLayer = L.mapbox.featureLayer(terracesLayer, {
     pointToLayer: function (feature, latlng) {
@@ -96,7 +78,7 @@ var terracesLayer = L.mapbox.featureLayer(terracesLayer, {
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/terraces.geojson')
-    .addTo(map);
+
 
 var lithicsLayer = L.mapbox.featureLayer(lithicsLayer, {
     pointToLayer: function (feature, latlng) {
@@ -109,8 +91,8 @@ var lithicsLayer = L.mapbox.featureLayer(lithicsLayer, {
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/lithics.geojson')
-    .addTo(map);	
-*/
+
+
 var potteryLayer = L.mapbox.featureLayer(potteryLayer, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, potteryLayer);
@@ -122,8 +104,8 @@ var potteryLayer = L.mapbox.featureLayer(potteryLayer, {
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/pottery.geojson')
-    .addTo(map);		
-/*
+    ;		
+
 var otherLayer = L.mapbox.featureLayer(otherLayer, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, otherLayer);
@@ -135,7 +117,7 @@ var otherLayer = L.mapbox.featureLayer(otherLayer, {
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/other.geojson')
-    .addTo(map);
+    ;
 
 var standingstructuresLayer = L.mapbox.featureLayer(standingstructuresLayer, {
     pointToLayer: function (feature, latlng) {
@@ -148,7 +130,7 @@ var standingstructuresLayer = L.mapbox.featureLayer(standingstructuresLayer, {
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/standingstructures.geojson')
-    .addTo(map);
+  ;
 
 var countsLayer = L.mapbox.featureLayer(countsLayer, {
     pointToLayer: function (feature, latlng) {
@@ -161,10 +143,47 @@ var countsLayer = L.mapbox.featureLayer(countsLayer, {
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/standingstructures.geojson')
-    .addTo(map);
+    ;
 
 
-*/		
+	
+L.control.layers({
+    'Mapbox Satellite': L.mapbox.tileLayer('mapbox.satellite').addTo(map),
+    'Mapbox Light': L.mapbox.tileLayer('mapbox.light'),
+	'Thunderforest Outdoors' : L.tileLayer('http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+		}),
+	'MtbMap' : L.tileLayer('http://tile.mtbmap.cz/mtbmap_tiles/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &amp; USGS'
+		}),
+	'HERE_hybridDay' : L.tileLayer('http://{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/hybrid.day/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}', {
+		attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
+		subdomains: '1234',
+		mapID: 'newest',
+		app_id: '<your app_id>',
+		app_code: '<your app_code>',
+		base: 'aerial',
+		maxZoom: 20,
+		type: 'maptile',
+		language: 'eng',
+		format: 'png8',
+		size: '256'
+		}),
+	'Esri_WorldImagery' : L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+		attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+		}),
+	
+}, {
+    "Geology": geologyLayer,
+	"Pottery":potteryLayer,
+	"Counts": countsLayer,
+	"Structures":standingstructuresLayer,
+	"Other":otherLayer,
+	"Lithics":lithicsLayer,
+	"Tracts":tractsLayer,
+	"Grids":gridsLayer,
+	"Terraces":terracesLayer
+}).addTo(map);	
 </script>
 </body>
 </html>
