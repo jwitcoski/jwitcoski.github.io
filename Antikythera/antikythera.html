@@ -11,6 +11,32 @@
   body { margin:0; padding:0; }
   #map { position:absolute; top:0; bottom:0; width:100%; }
 </style>
+<style>
+.legend label,
+.legend span {
+  display:block;
+  float:left;
+  height:15px;
+  width:20%;
+  text-align:center;
+  font-size:9px;
+  color:#808080;
+  }
+</style>
+
+<!-- Set the display of this container to none so we can
+     add it programmatically to `legendControl` -->
+
+
+<div id="legend" style="display:none;">
+  <strong>The Antikythera Survey Project</strong>
+  <nav class="legend clearfix">
+<p>The datasets archived here represent the full and complete results from this survey and from the subsequent programme of artefact study. 
+  The <a href="http://archaeologydataservice.ac.uk/archives/view/antikythera_ahrc_2012/downloads.cfm?type=artefact">artefact data</a> 
+  has been subdivided into three discrete elements: 'pottery', 'lithics' and 'other', while the 
+  <a href="http://archaeologydataservice.ac.uk/archives/view/antikythera_ahrc_2012/downloads.cfm?type=spatial">other spatial data</a> 
+  section contains information about three kinds of survey: stage-one tractwalking, stage-two grid collection and separate surveys of geology, standing structures and terraces.</p 
+</nav></div>
 </head>
 <body>
 <div id='map'></div>
@@ -24,6 +50,7 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGluZ3RoaW5ncyIsImEiOiJkSy1MRlNVIn0.jt2ol5HlgFaCdx4Ajn5WjA';
 var map = L.mapbox.map('map')
     .setView([35.868743, 23.274536], 13);
+	map.legendControl.addLegend(document.getElementById('legend').innerHTML);
 
 		
 // Load all the layers in
