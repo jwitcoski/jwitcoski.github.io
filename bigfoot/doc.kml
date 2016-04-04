@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<NetworkLink>
+	<name>All BFRO.net Reports</name>
+	<open>1</open>
+	<description>Expand the timeline slider to show all reports.</description>
+	<LookAt>
+		<longitude>-99.13480195511099</longitude>
+		<latitude>45.63815976166145</latitude>
+		<altitude>0</altitude>
+		<range>5113986.49174086</range>
+		<tilt>0</tilt>
+		<heading>2.075606681724427</heading>
+		<altitudeMode>relativeToGround</altitudeMode>
+	</LookAt>
+  <!--
+  <Style>
+		<ListStyle>
+			<listItemType>checkHideChildren</listItemType>
+			<bgColor>00ffffff</bgColor>
+		</ListStyle>
+	</Style>
+  -->
+	<Url>
+		<href>http://www.bfro.net/app/AllReportsKMZ.aspx</href>
+		<refreshMode>onInterval</refreshMode>
+		<refreshInterval>3600</refreshInterval>
+	</Url>
+</NetworkLink>
+</kml>

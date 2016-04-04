@@ -7,6 +7,12 @@
 <script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
 <link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
 
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-label/v0.2.1/leaflet.label.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-label/v0.2.1/leaflet.label.css' rel='stylesheet' />
+
 <style>
   body { margin:0; padding:0; }
   #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -43,34 +49,22 @@
 <div id='map'></div>
 
 <script>
-
-
-
 //load the map
-
 L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGluZ3RoaW5ncyIsImEiOiJkSy1MRlNVIn0.jt2ol5HlgFaCdx4Ajn5WjA';
 var map = L.mapbox.map('map')
-    .setView([35.87, 23.28], 14);
+    .setView([35.872003, 23.297], 16);
 	map.legendControl.addLegend(document.getElementById('legend').innerHTML);
 		
 // Load all the layers in
-
 var geologyLayer = L.mapbox.featureLayer(geologyLayer, {
 	style: {
-	"fillColor": function(feature){
-			if (Feature.Properties.Area > 3)
-				{
-				return { "fillColor":"Black"};
-				}
-				else
-				return { "fillColor":"green"};
-				},
+	"width": 0.1,
+	"color": "black",
+	"fillColor": "orange" 
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/geology.geojson')
-	.addTo(map)
 ;
-
 var tractsLayer = L.mapbox.featureLayer(tractsLayer, {
 	style: {
     "color": "Black",
@@ -79,8 +73,6 @@ var tractsLayer = L.mapbox.featureLayer(tractsLayer, {
 	}
 	})
     .loadURL('http://jwitcoski.github.io/Antikythera/data/tracts.geojson')
-
-
 var gridsLayer = L.mapbox.featureLayer(gridsLayer, {
 	style: {
     "color": "Black",
@@ -89,8 +81,6 @@ var gridsLayer = L.mapbox.featureLayer(gridsLayer, {
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/grids.geojson')
-
-
 var terracesLayer = L.mapbox.featureLayer(terracesLayer, {
 	style: {
     "color": "black",
@@ -99,11 +89,10 @@ var terracesLayer = L.mapbox.featureLayer(terracesLayer, {
 	}
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/terraces.geojson')
-
-
+	
 var lithicsLayer = L.mapbox.featureLayer(lithicsLayer, {
     pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, lithicsLayer);
+        return L.marker(latlng, lithicsLayer);
     },
 	style: {
     "color": "black",
@@ -111,10 +100,10 @@ var lithicsLayer = L.mapbox.featureLayer(lithicsLayer, {
     "opacity": .9,
 	}
 })
-    .loadURL('http://jwitcoski.github.io/Antikythera/data/lithics.geojson')
+	.loadURL('http://jwitcoski.github.io/Antikythera/data/lithics.geojson')
+	.addTo(map)
 
-
-var potteryLayer = L.mapbox.featureLayer(potteryLayer, {
+	var potteryLayer = L.mapbox.featureLayer(potteryLayer, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, potteryLayer);
     },
@@ -126,7 +115,6 @@ var potteryLayer = L.mapbox.featureLayer(potteryLayer, {
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/pottery.geojson')
     ;		
-
 var otherLayer = L.mapbox.featureLayer(otherLayer, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, otherLayer);
@@ -139,7 +127,6 @@ var otherLayer = L.mapbox.featureLayer(otherLayer, {
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/other.geojson')
     ;
-
 var standingstructuresLayer = L.mapbox.featureLayer(standingstructuresLayer, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, standingstructuresLayer);
@@ -152,7 +139,6 @@ var standingstructuresLayer = L.mapbox.featureLayer(standingstructuresLayer, {
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/standingstructures.geojson')
   ;
-
 var countsLayer = L.mapbox.featureLayer(countsLayer, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, countsLayer);
@@ -165,7 +151,6 @@ var countsLayer = L.mapbox.featureLayer(countsLayer, {
 })
     .loadURL('http://jwitcoski.github.io/Antikythera/data/standingstructures.geojson')
     ;
-
 //map legend
 	
 L.control.layers({
@@ -194,7 +179,8 @@ L.control.layers({
 	"Lithics":lithicsLayer,
 }).addTo(map);
 ;
-
 </script>
 </body>
 </html>
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
