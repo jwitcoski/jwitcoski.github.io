@@ -15,7 +15,6 @@
 
 
 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
-<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
 
 <div id='map'></div>
 
@@ -31,7 +30,7 @@ var map = L.mapbox.map('map', 'mapbox.streets');
 
 // Internally this uses the toGeoJSON library to decode the KML file
 // into GeoJSON
-var runLayer = omnivore.kml('/mapbox.js/assets/data/line.kml', null, customLayer)
+var runLayer = omnivore.kml('http://jwitcoski.github.io/bigfoot/ClassA.kml', null)
     .on('ready', function() {
         // http://leafletjs.com/reference.html#map-fitbounds
         map.fitBounds(runLayer.getBounds());
