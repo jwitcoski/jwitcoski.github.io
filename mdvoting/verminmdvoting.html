@@ -24,13 +24,12 @@ var votingstationLayer = L.mapbox.featureLayer('https://raw.githubusercontent.co
             marker.setIcon(L.icon({
     iconUrl: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSJVp-ZjuecxONjJxHflU-woWhWocaFMMhPMDfW4Hr54_3LDzyg',
 
-    iconSize:     [50, 50], // size of the icon
+    iconSize:     [100, 100], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
             }));
         });
     })
-	.bindPopup("hello");
 	.addTo(mapOne);
 </script>
 </body>
