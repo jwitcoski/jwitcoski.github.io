@@ -21,16 +21,15 @@ var mapOne = L.mapbox.map('map-one', 'mapbox.light')
 var votingstationLayer = L.mapbox.featureLayer('https://raw.githubusercontent.com/geobabbler/geodata/master/geojson/md_early_voting/md_early_voting_2016_primary.geojson', {})
 	.on('ready', function(layer) {
         this.eachLayer(function(marker) {
-            // See the following for styling hints:
-            // https://help.github.com/articles/mapping-geojson-files-on-github#styling-features
             marker.setIcon(L.icon({
-    iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Trump_Circle.png',
+    iconUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlqArdcP1jICd9w0JqMNw6-Fo5x1h1JnGh2Ln3GA_EPOpKkLMefGws_H4',
 
     iconSize:     [50, 50], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
-}))
-    })})
+            }));
+        });
+    })
 	.addTo(mapOne);
 </script>
 </body>
