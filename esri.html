@@ -1,51 +1,295 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset=utf-8 />
-<title>KML Data</title>
-<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
-<link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
-</style>
-</head>
-<body>
+<html class="no-js">
+    <head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <title>ESRI</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Template CSS Files
+        ================================================== -->
+        <!-- Twitter Bootstrs CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Ionicons Fonts Css -->
+        <link rel="stylesheet" href="css/ionicons.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- Hero area slider css-->
+        <link rel="stylesheet" href="css/slider.css">
+        <!-- owl craousel css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <!-- template main css file -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        <!-- Template Javascript Files
+        ================================================== -->
+        <!-- modernizr js -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- jquery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- owl carouserl js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- bootstrap js -->
 
+        <script src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <!-- slider js -->
+        <script src="js/slider.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
+        <!-- template main js -->
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <!--
+        ==================================================
+        Header Section Start
+        ================================================== -->
+        <header id="top-bar" class="navbar-fixed-top animated-header">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <!-- /responsive nav button -->
+                    
+                    <!-- logo -->
+                    <div class="navbar-brand">
+                        <a href="index.html" >
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <!-- /logo -->
+                </div>
+                <!-- main menu -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <div class="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="index.html" >Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="blog-fullwidth.html">My Thoughts</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /main nav -->
+            </div>
+        </header>
+        <!--
+        ==================================================
+        Global Page Section Start
+        ================================================== -->
+        <section class="global-page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block">
+                            <h2>ESRI</h2>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section><!--/#Page header-->
 
-<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+            <section class="portfolio-single">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="portfolio-single-img">
+							<img src="http://vrtkl.no/blog/wp-content/uploads/2015/02/esri.jpg" class="img-responsive" alt="this is a title" >
+                            <div class="portfolio-content">
+                                <p>
+								In 2014, Esri had approximately a 43 percent share of the GIS software market worldwide, more than any other vendor.  There software is powerful and useful for almost any mapping needs.  
+								</p><br>
 
-<div id='map'></div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--
+            ==================================================
+             Portfolio Section Start
+            ================================================== -->
+            <section id="works" class="works">
+                <div class="container">
+                    <div class="section-heading">
+                        <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Work</h1>
+                        <p class="wow fadeInDown" data-wow-delay=".5s">
+                            Here is a rundown of my tinkering   
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12">
+                            <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+                                <div class="img-wrapper">
+                                    <img src="https://gcn.com/~/media/GIG/GCN/Redesign/Generic/cloudgis2.png" class="img-responsive" alt="this is a title" >
+                                    <div class="overlay">
+                                        <div class="buttons">
+                                            <a rel="gallery" class="fancybox" href="https://gcn.com/~/media/GIG/GCN/Redesign/Generic/cloudgis2.png">Full Screen Photo</a>
+                                            <a target="_blank" href="http://jwitcoski.github.io/esri/GIS%20Servers%2006092016.pdf">Find Out More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                <h4>
+                                <a href="http://jwitcoski.github.io/esri/GIS%20Servers%2006092016.pdf">
+                                    Standing up the GIS Servers in a DOD Environment
+                                </a>
+                                </h4>
+                                <p>
+                                    Tips and tricks
+                                </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <div class="img-wrapper">
+                                    <img src="https://fcw.com/articles/2016/05/03/~/media/GIG/FCWNow/Logos/FedRAMP_logo_updated.jpg" class="img-responsive" alt="this is a title" >
+                                    <div class="overlay">
+                                        <div class="buttons">
+                                            <a rel="gallery" class="fancybox" href="https://fcw.com/articles/2016/05/03/~/media/GIG/FCWNow/Logos/FedRAMP_logo_updated.jpg">Full Screen Photo</a>
+                                            <a target="_blank" href="http://jwitcoski.github.io/esri/Can%20I%20Go%20to%20The%20Cloud%2006092016.pdf">Find Out More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                <h4>
+                                <a href="http://jwitcoski.github.io/esri/Can%20I%20Go%20to%20The%20Cloud%2006092016.pdf">
+                                    Migrating your data to the cloud
+                                </a>
+                                </h4>
+                                <p>
+                                    FedRamp intro too
+                                </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                           <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <div class="img-wrapper">
+                                    <img src="https://dbouwman.files.wordpress.com/2011/08/ll-ags_thumb.png" class="img-responsive" alt="" >
+                                    <div class="overlay">
+                                        <div class="buttons">
+                                            <a rel="gallery" class="fancybox" href="https://dbouwman.files.wordpress.com/2011/08/ll-ags_thumb.png">Full Screen Photo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                <h4>
+                                <a href="http://jwitcoski.github.io/esri/HomeButtonandSearchMap.html">
+                                    Home Button and Search using Esri API
+                                </a>
+								<a href="http://jwitcoski.github.io/esri/Simple%20Map.html">
+                                    Simple Map using Esri API
+                                </a>
+																<a href="http://jwitcoski.github.io/esri/EsriLeaflet.html">
+                                    Simple Map using Esri Javascript API
+                                </a>
+																<a href="http://jwitcoski.github.io/esri/EsriLeafletheatmap.html">
+                                    Heatmap
+                                </a>
+                                </h4>
+                                <p>
+                                    Some Simple Web Maps.
+                                </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                      
+                      
+                       
+                    </div>
+                </div>
+            </section> <!-- #works -->
+            <!--
+            ==================================================
+            Call To Action Section Start
+            ================================================== -->
+            <section id="call-to-action">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="block">
+                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="300ms">SO WHAT YOU THINK ?</h1>
+                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="300ms">Send Me a Message</p>
+                                <a href="#" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="300ms">Contact Page</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <!--
+            ==================================================
+            Footer Section Start
+            ================================================== -->
+          <footer id="footer">
+                <div class="container">
+                    <div class="col-md-8">
+                        <p class="copyright">Copyright: <span>2015</span> . Design and Developed by <a href="http://www.Themefisher.com">Jonathan using Themefisher template</a></p>
+                    </div>
 
-<script>
-L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGluZ3RoaW5ncyIsImEiOiJkSy1MRlNVIn0.jt2ol5HlgFaCdx4Ajn5WjA';
-var map = L.mapbox.map('map', 'mapbox.streets');
-
-// omnivore will AJAX-request this file behind the scenes and parse it:
-// note that there are considerations:
-// - The file must either be on the same domain as the page that requests it,
-//   or both the server it is requested from and the user's browser must
-//   support CORS.
-
-// Internally this uses the toGeoJSON library to decode the KML file
-// into GeoJSON
-var runLayer = omnivore.kml('cablemapinfo.kml')
-    .on('ready', function() {
-        map.fitBounds(runLayer.getBounds());
-    })
-    .addTo(map);
-var GoogleSkiPoints =  $.getJSON("cable.geojson",function(data){
-	L.geoJson(data,{
-    pointToLayer: function(feature,latlng){
-      var marker = L.marker(latlng,{});
-      marker.bindPopup(feature.properties.name + '<br/>' + feature.properties.description);
-      return marker;
-    }
-	}).addTo(map);
-	});
-</script>
-
-
-</body>
-</html>
+                        <!-- Social Media -->
+                        <ul class="social">
+                            <li>
+                                <a href="https://twitter.com/mappingthings" class="Twitter">
+                                    <i class="ion-social-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/jonathanwitcoski" class="Linkedin">
+                                    <i class="ion-social-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:jwitcoski@gmail.com" class="email">
+                                    <i class="ion-ios-email"></i>
+                                </a>
+                            </li>
+							<li>
+                                <a href="https://mappingthings.wordpress.com/" class="email">
+                                    <i class="ion-social-wordpress"></i>
+                                </a>
+                            </li>
+							<li>
+                                <a href="https://www.openstreetmap.org/user/jonwit" class="openstreetmap">
+                                    <i class="ion-map"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer> <!-- /#footer -->
+                
+            </body>
+        </html>
+    </html>
