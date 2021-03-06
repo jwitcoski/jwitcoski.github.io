@@ -1,0 +1,51 @@
+		<head>
+<!-- Plotly.js -->
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+		</head>
+		<body>
+		<div id="myDiv" style="width:100%;height:100%"></div>
+		<script>
+		
+Plotly.d3.csv('https://raw.githubusercontent.com/jwitcoski/jwitcoski.github.io/master/python/2020gdp.csv', function(err, rows){
+      function unpack(rows, key) {
+          return rows.map(function(row) { return row[key]; });
+      }
+  
+ var data = [{
+              type: 'choropleth',
+              locations: unpack(rows, 'Country Code'),
+              z: unpack(rows, 'Value'),
+              text: unpack(rows, 'Country Name'),
+              autocolorscale: true,
+              reversescale: false,
+              marker: {
+                line: {
+                  color: 'rgb(180,180,180)',
+                  width: 0.5
+                }
+              },
+              tick0: 0,
+              zmin: 0,
+              dtick: 1000,
+              colorbar: {
+                autotic: false,
+                tickprefix: '$',
+                title: 'GDP<br>Trillions US$'
+              }
+          }];
+
+console.log(data.locations);
+  var layout = {
+          title: '2016 Global GDP<br>Source: <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD"> World Bank Data</a>',
+          geo:{
+            showframe: false,
+            showcoastlines: false,
+            projection:{
+              type: 'winkel tripel'
+            }
+          }
+      };
+      Plotly.plot(myDiv, data, layout, {showLink: false});
+  });
+		</script>
+		</body>
