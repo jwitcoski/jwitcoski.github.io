@@ -1,0 +1,23 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Python Production Toolset</Name><AddInID>{310ae7ca-160a-4d97-846d-f622a15b8691}</AddInID><Description>New Addin</Description><Version>0.1</Version><Image>Images\BAS.png</Image><Author>Untitled</Author><Company>Untitled</Company><Date>03/19/2021</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="BasProductionToolSet_addin.py" namespace="BasProductionToolSet_addin"><ArcMap>
+    <Commands>
+        <ComboBox caption="WorkingLayer" category="Python Production Toolset" class="WorkingLayer" id="BasProductionToolSet_addin.WorkingLayer" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <ComboBox caption="UserType" category="Python Production Toolset" class="UserType" id="BasProductionToolSet_addin.UserType" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <ComboBox caption="XYColumn" category="Python Production Toolset" class="XYColumn" id="BasProductionToolSet_addin.XYColumn" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <ComboBox caption="CommentColumn" category="Python Production Toolset" class="CommentColumn" id="BasProductionToolSet_addin.CommentColumn" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <ComboBox caption="TotalFeatureCount" category="Python Production Toolset" class="TotalFeatureCount" id="BasProductionToolSet_addin.TotalFeatureCount" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <ComboBox caption="CurrentFeatureNumber" category="Python Production Toolset" class="CurrentFeatureNumber" id="BasProductionToolSet_addin.CurrentFeatureNumber" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <Button caption="BackToBeginning" category="Python Production Toolset" class="BackToBeginning" id="BasProductionToolSet_addin.BackToBeginning" image="Images\mActionArrowLeft.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="BackOne" category="Python Production Toolset" class="BackOne" id="BasProductionToolSet_addin.BackOne" image="Images\mActionArrowLeft.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="ForwardOne" category="Python Production Toolset" class="ForwardOne" id="BasProductionToolSet_addin.ForwardOne" image="Images\mActionArrowRight.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="ForwardEmpty" category="Python Production Toolset" class="ForwardEmpty" id="BasProductionToolSet_addin.ForwardEmpty" image="Images\mActionArrowRight.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="ForwardToEnd" category="Python Production Toolset" class="ForwardToEnd" id="BasProductionToolSet_addin.ForwardToEnd" image="Images\mActionArrowRight.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Submit" category="Python Production Toolset" class="Submit" id="BasProductionToolSet_addin.Submit" image="" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="BAS Production Toolset" category="Python Production Toolset" id="BasProductionToolSet_addin.BASProductionToolset" showInitially="true"><Items><ComboBox refID="BasProductionToolSet_addin.WorkingLayer" /><ComboBox refID="BasProductionToolSet_addin.UserType" /><ComboBox refID="BasProductionToolSet_addin.XYColumn" /><ComboBox refID="BasProductionToolSet_addin.CommentColumn" /><ComboBox refID="BasProductionToolSet_addin.TotalFeatureCount" /><ComboBox refID="BasProductionToolSet_addin.CurrentFeatureNumber" /><Button refID="BasProductionToolSet_addin.BackToBeginning" /><Button refID="BasProductionToolSet_addin.BackOne" /><Button refID="BasProductionToolSet_addin.ForwardOne" /><Button refID="BasProductionToolSet_addin.ForwardEmpty" /><Button refID="BasProductionToolSet_addin.ForwardToEnd" /><Button refID="BasProductionToolSet_addin.Submit" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>

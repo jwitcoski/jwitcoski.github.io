@@ -1,0 +1,401 @@
+
+<!-- saved from url=(0068)file:///C:/Users/witco001/Desktop/BasProductionToolSet_addin.py.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>BasProductionToolSet_addin.py</title>
+
+<style type="text/css">
+.s0 { color: #000080; font-weight: bold;}
+.s1 { color: #000000;}
+.s2 { color: #008000; font-weight: bold;}
+.s3 { color: #808080; font-style: italic;}
+.s4 { color: #0000ff;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table cellspacing="0" cellpadding="5" cols="1" width="100%" bgcolor="#c0c0c0">
+<tbody><tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+BasProductionToolSet_addin.py</font>
+</center></td></tr></tbody></table>
+<pre><span class="s0">import </span>arcpy
+<span class="s0">import </span>pythonaddins
+
+mxd = arcpy.mapping.MapDocument(<span class="s2">"CURRENT"</span>)  <span class="s3"># for testing only</span>
+df = arcpy.mapping.ListDataFrames(mxd, <span class="s2">"Layers"</span>)[<span class="s4">0</span>]  <span class="s3"># for testing only</span>
+mxdlyrs = arcpy.mapping.ListLayers(mxd, <span class="s2">"*"</span>)  <span class="s3"># for testing only</span>
+
+
+# This class will read the selected layer, store its value, and then zoom to the layer
+<span class="s0">class </span>Zoom(object):
+    <span class="s3">#Values are store here</span>
+    <span class="s0">def </span>__init__(self):
+        self.CurrentNumber = int()  <span class="s3"># Current feature number</span>
+        self.CurrentLayer = str()  <span class="s3"># Current Layer</span>
+        self.TotalNumber = int()  <span class="s3"># Current total number of features</span>
+        self.XYValue = str()  <span class="s3"># Value of XY column</span>
+        self.CommentValue = str()  <span class="s3"># Value of comment column</span>
+        self.counter = int()  <span class="s3"># Used to count the current feature number</span>
+        #add in more variables here
+
+    # This zooms to first feature no matter if it is empty or not
+    #This takes one variable, The number you want to go too
+    <span class="s0">def </span>zoomtolayernumber(self, CurrentNumber):
+        self.CurrentLayer = WorkingLayer.fc
+        self.CurrentNumber = CurrentNumber
+        arcpy.SelectLayerByAttribute_management(WorkingLayer.fc, <span class="s2">"CLEAR_SELECTION"</span>)
+        <span class="s3">#Too See more layers add in layers here for the cursor</span>
+        cur = arcpy.da.SearchCursor(WorkingLayer.fc, [<span class="s2">'OID@'</span>, <span class="s2">'SHAPE@'</span>,UserType.XYColumn, UserType.CommentColumn])
+        myOIDs = [x[<span class="s4">0</span>] <span class="s0">for </span>x <span class="s0">in </span>arcpy.da.SearchCursor(WorkingLayer.fc, <span class="s2">'OID@'</span>)]
+        TotalNum = len(myOIDs)
+        <span class="s3"># print(myOIDs[CurrentNumber])</span>
+        self.TotalNumber = TotalNum
+        <span class="s0">for </span>row <span class="s0">in </span>cur:
+            <span class="s3"># print row[0]</span>
+            <span class="s0">if </span>row[<span class="s4">0</span>] == myOIDs[CurrentNumber]:
+                df = arcpy.mapping.ListDataFrames(mxd, <span class="s2">"Layers"</span>)[<span class="s4">0</span>]  <span class="s3"># needs to be here for it to not error</span>
+                df.extent = row[<span class="s4">1</span>].extent  <span class="s3"># Set dataframe extent to the extent of the feature</span>
+                df.scale = df.scale * <span class="s4">1.07  </span><span class="s3"># add some space</span>
+                arcpy.RefreshActiveView()
+                self.XYValue = row[<span class="s4">2</span>]
+                self.CommentValue = row[<span class="s4">3</span>]
+                <span class="s3">#add in more columns you want here</span>
+                Zoom.update(self)
+                <span class="s3">#test print #print WorkingLayer.object.CurrentNumber, WorkingLayer.object.CurrentLayer, WorkingLayer.object.TotalNumber, WorkingLayer.object.XYValue, WorkingLayer.object.CommentValue</span>
+                <span class="s0">break</span>
+
+    <span class="s3"># This will zoom to the first empty feature. It takes no inputs from the user</span>
+    <span class="s0">def </span>zoomtolayerattribute(self):
+        self.CurrentLayer = WorkingLayer.fc
+        arcpy.SelectLayerByAttribute_management(WorkingLayer.fc, <span class="s2">"CLEAR_SELECTION"</span>)
+        <span class="s3"># Too See more layers add in layers here for the cursor</span>
+        cur = arcpy.da.SearchCursor(WorkingLayer.fc, [<span class="s2">'OID@'</span>, <span class="s2">'SHAPE@'</span>, UserType.XYColumn, UserType.CommentColumn])
+        count = int(arcpy.GetCount_management(WorkingLayer.fc).getOutput(<span class="s4">0</span>))
+        self.TotalNumber = count
+        counter = int()
+        <span class="s3"># Need to still get Current Number from this</span>
+        <span class="s0">for </span>row <span class="s0">in </span>cur:
+            counter += <span class="s4">1  </span><span class="s3"># increases the counter by one</span>
+            self.CurrentNumber = counter - <span class="s4">1  </span><span class="s3"># Needs the minus 1 to be the actual spot</span>
+            # print row[2]
+            <span class="s0">if </span>row[<span class="s4">2</span>] == <span class="s2">""</span>:
+                df = arcpy.mapping.ListDataFrames(mxd, <span class="s2">"Layers"</span>)[<span class="s4">0</span>]  <span class="s3"># needs to be here for it to not error</span>
+                df.extent = row[<span class="s4">1</span>].extent  <span class="s3"># Set dataframe extent to the extent of the feature</span>
+                df.scale = df.scale * <span class="s4">1.07  </span><span class="s3"># add some space</span>
+                arcpy.RefreshActiveView()
+                self.XYValue = row[<span class="s4">2</span>]
+                self.CommentValue = row[<span class="s4">3</span>]
+                Zoom.update(self)
+                <span class="s3">#print WorkingLayer.object.CurrentNumber, WorkingLayer.object.CurrentLayer, WorkingLayer.object.TotalNumber, WorkingLayer.object.XYValue, WorkingLayer.object.CommentValue</span>
+                <span class="s0">break</span>
+
+    <span class="s3"># updates all the features boxes</span>
+    <span class="s0">def </span>update(self):
+        CurrentFeatureNumber.refresh(self)
+        CommentColumn.refresh(self)
+        XYColumn.refresh(self)
+        TotalFeatureCount.refresh(self)
+        <span class="s0">print</span><span class="s2">"Everything is updated"</span>
+
+    <span class="s3">#edits all the attributes with the values the user puts in</span>
+    <span class="s0">def </span>EditAttributes(self):
+        myOIDs = [x[<span class="s4">0</span>] <span class="s0">for </span>x <span class="s0">in </span>arcpy.da.SearchCursor(self.CurrentLayer, <span class="s2">'OID@'</span>)]
+        edit = arcpy.da.Editor(WorkingLayer.layerworkspace)
+        <span class="s3"># Edit session is started without an undo/redo stack for versioned data</span>
+        #  (for second argument, use False for unversioned data)
+        edit.startEditing(False, True)
+        <span class="s3"># Create update cursor</span>
+        <span class="s0">with </span>arcpy.da.UpdateCursor(self.CurrentLayer,
+                                   [<span class="s2">'OID@'</span>, <span class="s2">'SHAPE@'</span>, UserType.XYColumn, UserType.CommentColumn]) <span class="s0">as </span>cursor:
+            <span class="s3"># Start an edit operation</span>
+            edit.startOperation()
+            <span class="s0">for </span>row <span class="s0">in </span>cursor:
+                <span class="s3"># Your Code</span>
+                <span class="s0">if </span>row[<span class="s4">0</span>] == myOIDs[self.CurrentNumber]:  <span class="s3"># test the FEATURE field</span>
+                    row[<span class="s4">2</span>] = XYColumn.xyfield
+                    row[<span class="s4">3</span>] = CommentColumn.comment  <span class="s3"># set the FERRY field</span>
+                    <span class="s0">print </span><span class="s2">"YES"</span>
+                <span class="s0">else</span>:
+                    <span class="s0">print </span><span class="s2">"NO"</span>
+                cursor.updateRow(row)  <span class="s3"># commit the changes</span>
+        # Stop the edit operation.
+        edit.stopOperation()
+        <span class="s3"># Stop the edit session and save the changes</span>
+        edit.stopEditing(True)
+
+
+<span class="s3"># Go Back one feature, runs zoomtolayernumber()</span>
+<span class="s0">class </span>BackOne(object):
+    <span class="s3">"""Implementation for BasProductionToolSet_addin.BackOne (Button)"""</span>
+
+    <span class="s0">def </span>__init__(self):
+        self.enabled = True
+        self.checked = False
+
+    <span class="s0">def </span>onClick(self):
+        WorkingLayer.object.zoomtolayernumber(WorkingLayer.object.CurrentNumber - <span class="s4">1</span>)
+
+
+<span class="s3"># Go Back to first feature, runs zoomtolayernumber()</span>
+<span class="s0">class </span>BackToBeginning(object):
+    <span class="s3">"""Implementation for BasProductionToolSet_addin.BackToBeginning (Button)"""</span>
+
+    <span class="s0">def </span>__init__(self):
+        self.enabled = True
+        self.checked = False
+
+    <span class="s0">def </span>onClick(self):
+        WorkingLayer.object.zoomtolayernumber(<span class="s4">0</span>)
+
+
+<span class="s3"># Display the Comment Column</span>
+<span class="s0">class </span>CommentColumn(object):
+    <span class="s3">"""Implementation for BasProductionToolSet_addin.CommentColumn (ComboBox)"""</span>
+
+    <span class="s0">def </span>__init__(self):
+        self.items = []
+        self.editable = True
+        self.enabled = True
+        self.dropdownWidth = <span class="s2">'WWWWWW'</span>
+        self.width = <span class="s2">'WWWWWW'</span>
+        self.comment = str()
+
+    <span class="s0">def </span>onSelChange(self, selection):
+        <span class="s0">pass</span>
+
+    def onEditChange(self, text):
+        self.comment = text
+
+    <span class="s0">def </span>onFocus(self, focused):
+        <span class="s0">pass</span>
+
+    def onEnter(self):
+        <span class="s0">print </span>self.comment
+
+    <span class="s0">def </span>refresh(self):
+        self.items = []
+        self.items.append(WorkingLayer.object.CommentValue)
+
+
+<span class="s3"># Display the Current Feature Number,  runs zoomtolayernumber() on number if you hit enter</span>
+<span class="s0">class </span>CurrentFeatureNumber(object):
+    <span class="s3">"""Implementation for BasProductionToolSet_addin.CurrentFeatureNumber (ComboBox)"""</span>
+
+    <span class="s0">def </span>__init__(self):
+        self.items = []
+        self.editable = True
+        self.enabled = True
+        self.dropdownWidth = <span class="s2">'WWWWWW'</span>
+        self.width = <span class="s2">'WWWWWW'</span>
+        self.num = int()
+
+    <span class="s0">def </span>onSelChange(self, selection):
+        <span class="s0">pass</span>
+
+    def onEditChange(self, text):
+        self.num = text
+
+    <span class="s0">def </span>onFocus(self, focused):
+        <span class="s0">pass</span>
+
+    def onEnter(self):
+        WorkingLayer.object.zoomtolayernumber(int(CurrentFeatureNumber.num))
+
+    <span class="s0">def </span>refresh(self):
+        self.items = []
+        self.items.append(WorkingLayer.object.CurrentNumber)
+
+<span class="s3"># Go forward to next empty feature, runs zoomtolayerattribute()</span>
+<span class="s0">class </span>ForwardEmpty(object):
+    <span class="s3">"""Implementation for BasProductionToolSet_addin.ForwardEmpty (Button)"""</span>
+
+    <span class="s0">def </span>__init__(self):
+        self.enabled = True
+        self.checked = False
+
+    <span class="s0">def </span>onClick(self):
+        WorkingLayer.object.zoomtolayerattribute()
+
+<span class="s3"># Go forward one feature, runs zoomtolayernumber()</span>
+<span class="s0">class </span>ForwardOne(object):
+    <span class="s3">"""Implementation for BasProductionToolSet_addin.ForwardOne (Button)"""</span>
+
+    <span class="s0">def </span>__init__(self):
+        self.enabled = True
+        self.checked = False
+
+    <span class="s0">def </span>onClick(self):
+        WorkingLayer.object.zoomtolayernumber(WorkingLayer.object.CurrentNumber + <span class="s4">1</span>)
+
+<span class="s3"># Go to last feature, runs zoomtolayer()</span>
+<span class="s0">class </span>ForwardToEnd(object):
+    <span class="s3">"""Implementation for BasProductionToolSet_addin.ForwardToEnd (Button)"""</span>
+
+    <span class="s0">def </span>__init__(self):
+        self.enabled = True
+        self.checked = False
+
+    <span class="s0">def </span>onClick(self):
+        WorkingLayer.object.zoomtolayernumber(WorkingLayer.object.TotalNumber - <span class="s4">1</span>)
+
+<span class="s3">#displays total features</span>
+<span class="s0">class </span>TotalFeatureCount(object):
+    <span class="s3">"""Implementation for BasProductionToolSet_addin.TotalFeatureCount (ComboBox)"""</span>
+
+    <span class="s0">def </span>__init__(self):
+        self.items = [<span class="s2">"item1"</span>, <span class="s2">"item2"</span>]
+        self.editable = True
+        self.enabled = True
+        self.dropdownWidth = <span class="s2">'WWWWWW'</span>
+        self.width = <span class="s2">'WWWWWW'</span>
+
+    <span class="s0">def </span>onSelChange(self, selection):
+        <span class="s0">pass</span>
+
+    def onEditChange(self, text):
+        <span class="s0">pass</span>
+
+    def onFocus(self, focused):
+        <span class="s0">pass</span>
+
+    def onEnter(self):
+        <span class="s0">pass</span>
+
+    def refresh(self):
+        self.items = []
+        self.items.append(WorkingLayer.object.TotalNumber)
+
+<span class="s3">#makes the user select what they are doing and then will get the layers for it.</span>
+<span class="s0">class </span>UserType(object):
+    <span class="s3">"""Implementation for BasProductionToolSet_addin.UserType (ComboBox)"""</span>
+
+    <span class="s0">def </span>__init__(self):
+        self.items = [<span class="s2">"Processing"</span>, <span class="s2">"Verifying"</span>, <span class="s2">"Digitizing"</span>, <span class="s2">"Initial QC"</span>]
+        self.editable = True
+        self.enabled = False
+        self.dropdownWidth = <span class="s2">'Processing'</span>
+        self.width = <span class="s2">'Processing'</span>
+        self.CommentColumn = str()
+        self.XYColumn = str()
+        WorkingLayer.__init__()
+
+    <span class="s0">def </span>onSelChange(self, selection):
+        self.usertype = selection
+        <span class="s0">if </span>selection == <span class="s2">"Processing"</span>:
+            self.CommentColumn = <span class="s2">"P_Comments"</span>
+            self.XYColumn = <span class="s2">"PROCESS"</span>
+            self.CommentColumn = <span class="s2">"P_Comments"</span>
+            self.XYColumn = <span class="s2">"PROCESS"</span>
+        <span class="s0">elif </span>selection == <span class="s2">"Verifying"</span>:
+            self.CommentColumn = <span class="s2">"V_Comments"</span>
+            self.XYColumn = <span class="s2">"VERIFY"</span>
+        <span class="s0">elif </span>selection == <span class="s2">"Digitizing"</span>:
+            self.CommentColumn = <span class="s2">"D_Comments"</span>
+            self.XYColumn = <span class="s2">"DIGITIZE"</span>
+        <span class="s0">elif </span>selection == <span class="s2">"Initial QC"</span>:
+            self.CommentColumn = <span class="s2">"Q_Comments"</span>
+            self.XYColumn = <span class="s2">"QC"</span>
+        <span class="s3"># gets the value of the column and puts it into the table, Probably put somewhere else like onrefresh</span>
+        # UserType.value = arcpy.da.SearchCursor(WorkingLayer.fc, (UserType.column)).next()[WorkingLayer.rows]
+        # self.items.append(value)
+        # print self.CommentColumn
+
+        WorkingLayer.object.zoomtolayerattribute()
+
+    <span class="s0">def </span>onEditChange(self, text):
+        <span class="s0">pass</span>
+
+    def onFocus(self, focused):
+        <span class="s0">pass</span>
+
+    def onEnter(self):
+        <span class="s0">pass</span>
+
+    def refresh(self):
+        <span class="s0">pass</span>
+
+<span class="s3">#Gathers the layers that have "change" in the name.</span>
+<span class="s0">class </span>WorkingLayer(object):
+    <span class="s3">"""Implementation for BasProductionToolSet_addin.WorkingLayer (ComboBox)"""</span>
+
+    <span class="s0">def </span>__init__(self):
+        self.items = []
+        self.editable = True
+        self.enabled = True
+        self.dropdownWidth = <span class="s2">'WWWWWWWWWW'</span>
+        self.width = <span class="s2">'WWWWWWwwwww'</span>
+        self.layers = []  <span class="s3"># variable for layers in the mxd</span>
+        self.count = int()  <span class="s3"># variable to count the number of items in a layer</span>
+        self.fc = []  <span class="s3"># variable to get the layers in the mxd</span>
+        self.object = None
+        self.layerworkspace = []
+
+    <span class="s0">def </span>onSelChange(self, selection):
+        <span class="s3">#makes fc the layer that gets selected</span>
+        self.fc = fc = arcpy.mapping.ListLayers(self.mxd, selection)[<span class="s4">0</span>] <span class="s3">#no idea but it needs the fc in here to work</span>
+        #create a new instances of Zoom called object that records all the fun stuff.
+        self.object = Zoom()
+        <span class="s3">#print(fc)</span>
+        #print(fc.workspacePath)
+        #gathers workspace for editing
+        self.layerworkspace = fc.workspacePath
+        WorkingLayer.items = [process.name <span class="s0">for </span>process <span class="s0">in </span>arcpy.ListFields(selection)]
+        UserType.enabled = True  <span class="s3"># Turns on UserType ComboBox</span>
+
+    <span class="s0">def </span>onEditChange(self, text):
+        <span class="s0">pass</span>
+
+    def onFocus(self, focused):
+        <span class="s3"># when combox is focused this will get the layers</span>
+        <span class="s0">if </span>focused:
+            self.mxd = arcpy.mapping.MapDocument(<span class="s2">'current'</span>)
+            layers = arcpy.mapping.ListLayers(self.mxd)
+            self.items = []
+            <span class="s0">for </span>layer <span class="s0">in </span>layers:  <span class="s3"># only change layers will show up</span>
+                <span class="s0">if </span><span class="s2">"changes" </span><span class="s0">in </span>layer.name:
+                    self.items.append(layer.name)
+
+    <span class="s0">def </span>onEnter(self):
+        <span class="s0">pass</span>
+
+    def refresh(self):
+        <span class="s0">pass</span>
+
+<span class="s3">#Displays the column user types one letter</span>
+<span class="s0">class </span>XYColumn(object):
+    <span class="s3">"""Implementation for BasProductionToolSet_addin.XYColumn (ComboBox)"""</span>
+
+    <span class="s0">def </span>__init__(self):
+        self.items = []
+        self.editable = True
+        self.enabled = True
+        self.dropdownWidth = <span class="s2">'WWWWWW'</span>
+        self.width = <span class="s2">'WWWWWW'</span>
+        self.xyfield = str()
+
+    <span class="s0">def </span>onSelChange(self, selection):
+        <span class="s0">pass</span>
+
+    def onEditChange(self, text):
+        self.xyfield = text[<span class="s4">0</span>] <span class="s3">#Only get the first character</span>
+        <span class="s0">print </span>self.xyfield
+    <span class="s0">def </span>onFocus(self, focused):
+        <span class="s0">pass</span>
+
+    def onEnter(self):
+        <span class="s0">pass</span>
+
+    def refresh(self):
+        self.items = WorkingLayer.object.XYValue
+
+<span class="s3">#Button that triggers the editattributes function.</span>
+<span class="s0">class </span>Submit(object):
+    <span class="s3">"""Implementation for BasProductionToolSet_addin.Submit (Button)"""</span>
+
+    <span class="s0">def </span>__init__(self):
+        self.enabled = True
+        self.checked = False
+
+    <span class="s0">def </span>onClick(self):
+        WorkingLayer.object.EditAttributes()</pre>
+
+</body></html>
