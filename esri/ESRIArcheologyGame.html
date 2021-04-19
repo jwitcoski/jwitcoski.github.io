@@ -1,0 +1,150 @@
+<!--esriConfig.apiKey = "1b7c613553a7ae537c04e4e4605c1a4c";
+center: [23.3245, 35.867], // Longitude, latitude
+basemap: "arcgis-imagery" // Basemap layer service
+
+
+To run this demo, you need to replace 'YOUR-API-KEY' with an API key from the ArcGIS Developers dashboard.
+
+Sign up for a free account and get an API key.
+
+https://developers.arcgis.com/documentation/mapping-apis-and-location-services/get-started/
+
+ -->
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>ESRI API GeoJSONLayer Archeology Game...ArcGIS API for JavaScript 4.18</title>
+
+  <style>
+    html,
+    body,
+    #viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+  </style>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css" />
+  <script src="https://js.arcgis.com/4.18/"></script>
+
+  <script>
+    require(["esri/config","esri/Map", "esri/layers/GeoJSONLayer", "esri/views/MapView"], function (
+      esriConfig,
+ Map,
+      GeoJSONLayer,
+      MapView
+    ) {
+esriConfig.apiKey = "1b7c613553a7ae537c04e4e4605c1a4c";
+      // If GeoJSON files are not on the same domain as your website, a CORS enabled server
+      // or a proxy is required.
+      const tractsurl = "https://raw.githubusercontent.com/jwitcoski/jwitcoski.github.io/master/Antikythera/data/tracts.geojson";
+ const potteryurl = "https://raw.githubusercontent.com/jwitcoski/jwitcoski.github.io/master/Antikythera/data/pottery.geojson";
+ const lithicsurl = "https://raw.githubusercontent.com/jwitcoski/jwitcoski.github.io/master/Antikythera/data/lithics.geojson";
+ const otherurl = "https://raw.githubusercontent.com/jwitcoski/jwitcoski.github.io/master/Antikythera/data/other.geojson";
+
+//popupTemplates
+
+      const template = {
+        title: "Survey Tract {Tract} ",
+        content: "Visibility {Visibility}% Comments: {Comments} ",
+ 
+      };
+ const potterytemplate = {
+        title: "UID {UID}",
+        content: "VesselType: {VesselType}, Comments: {Comments} ",
+ 
+      };
+ const lithicstemplate = {
+        title: "UID {UID}",
+        content: "PrimBlank: {PrimBlank}, Length:{Length}, Thickness:{Thickness}, Width:{Width}",
+ 
+      };
+ const othertemplate = {
+        title: "UID {UID}",
+        content: "Object: {Object}, Material: {Material}, Comments: {Comments} ",
+ 
+      };
+//colors for each font
+      const renderer = {
+        type: "simple",
+        field: "Tract",
+        symbol: {
+          type: "simple-fill",
+          color: "grey",
+ opacity: 0.2,
+          outline: {
+            color: "black"
+          }
+        },
+       
+      };
+ 
+ const lithicrenderer = {
+        type: "simple",
+        field: "UID",
+        symbol: {
+          type: "simple-marker",
+          color: "blue",
+          outline: {
+            color: "black"
+          }
+        },
+       
+      };
+
+      const tractsgeojsonLayer = new GeoJSONLayer({
+        url: tractsurl,
+        copyright: "Antikythera Archeological Dig",
+        popupTemplate: template,
+        renderer: renderer //optional
+      });
+ 
+ const potterygeojsonLayer = new GeoJSONLayer({
+        url: potteryurl,
+        copyright: "Antikythera Archeological Dig",
+        popupTemplate: potterytemplate,
+        //renderer: renderer //optional
+      });
+ 
+ const lithicsgeojsonLayer = new GeoJSONLayer({
+        url: lithicsurl,
+        copyright: "Antikythera Archeological Dig",
+        popupTemplate: lithicstemplate,
+        renderer: lithicrenderer //optional
+      });
+ const othergeojsonLayer = new GeoJSONLayer({
+        url: otherurl,
+        copyright: "Antikythera Archeological Dig",
+        popupTemplate: othertemplate,
+        //renderer: renderer //optional
+      });
+
+
+      const map = new Map({
+        basemap: "arcgis-imagery",
+        layers: [tractsgeojsonLayer,potterygeojsonLayer,othergeojsonLayer,lithicsgeojsonLayer]
+      });
+
+      const view = new MapView({
+        container: "viewDiv",
+        center: [23.3245, 35.867],
+        zoom: 13,
+        map: map
+      });
+    });
+
+  </script>
+</head>
+
+<body>
+  <div id="viewDiv"></div>
+</body>
+
+</html>
+
